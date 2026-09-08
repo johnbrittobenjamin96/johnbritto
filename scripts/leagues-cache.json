@@ -1,1 +1,29 @@
-{}
+{
+  "football": {
+    "PL": {
+      "id": 33973,
+      "name": "Premier League"
+    },
+    "LALIGA": {
+      "id": 119924,
+      "name": "La Liga"
+    },
+    "SERIEA": {
+      "id": 115669,
+      "name": "Serie A"
+    },
+    "BUNDESLIGA": {
+      "id": 67162,
+      "name": "Bundesliga"
+    },
+    "LIGUE1": {
+      "id": 52695,
+      "name": "Ligue 1"
+    },
+    "CL": {
+      "id": 2486,
+      "name": "UEFA Champions League"
+    }
+  },
+  "basketball": {}
+}
