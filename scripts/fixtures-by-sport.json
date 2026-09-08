@@ -49,53 +49,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391993398",
-      "sport": "football",
-      "rawId": 1391993398,
-      "utcKickoff": "2026-09-08T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Real Madrid",
-      "away": "Inter",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Real Madrid",
-          "formation": "4-3-3",
-          "players": [
-            "T. Courtois",
-            "Marc Cucurella",
-            "D. Huijsen",
-            "I. Konaté",
-            "D. Dumfries",
-            "J. Bellingham",
-            "F. Valverde",
-            "T. Alexander-Arnold",
-            "Vinícius Júnior",
-            "Kylian Mbappé",
-            "Brahim Díaz"
-          ]
-        },
-        "away": {
-          "name": "Inter",
-          "formation": "3-5-2",
-          "players": [
-            "Josep Martínez",
-            "A. Bastoni",
-            "Y. Bisseck",
-            "B. Pavard",
-            "Carlos Augusto",
-            "C. Jones",
-            "H. Çalhanoğlu",
-            "N. Barella",
-            "A. Diouf",
-            "M. Thuram",
-            "Lautaro Martínez"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
       "id": "football-1391967017",
       "sport": "football",
       "rawId": 1391967017,
@@ -184,6 +137,53 @@
             "T. Buchanan",
             "G. Mikautadze",
             "T. Oluwaseyi"
+          ]
+        }
+      },
+      "lineupsAvailable": true
+    },
+    {
+      "id": "football-1391993398",
+      "sport": "football",
+      "rawId": 1391993398,
+      "utcKickoff": "2026-09-08T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Real Madrid",
+      "away": "Inter",
+      "allNotify": true,
+      "lineup": {
+        "home": {
+          "name": "Real Madrid",
+          "formation": "4-3-3",
+          "players": [
+            "T. Courtois",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "D. Dumfries",
+            "J. Bellingham",
+            "F. Valverde",
+            "T. Alexander-Arnold",
+            "Vinícius Júnior",
+            "Kylian Mbappé",
+            "Brahim Díaz"
+          ]
+        },
+        "away": {
+          "name": "Inter",
+          "formation": "3-5-2",
+          "players": [
+            "Josep Martínez",
+            "A. Bastoni",
+            "Y. Bisseck",
+            "B. Pavard",
+            "Carlos Augusto",
+            "C. Jones",
+            "H. Çalhanoğlu",
+            "N. Barella",
+            "A. Diouf",
+            "M. Thuram",
+            "Lautaro Martínez"
           ]
         }
       },
@@ -331,18 +331,6 @@
       "lineupsAvailable": true
     },
     {
-      "id": "football-1391979782",
-      "sport": "football",
-      "rawId": 1391979782,
-      "utcKickoff": "2026-09-09T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Napoli",
-      "away": "Arsenal",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1392012120",
       "sport": "football",
       "rawId": 1392012120,
@@ -379,6 +367,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1391979782",
+      "sport": "football",
+      "rawId": 1391979782,
+      "utcKickoff": "2026-09-09T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Napoli",
+      "away": "Arsenal",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1392016375",
       "sport": "football",
       "rawId": 1392016375,
@@ -403,18 +403,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391978931",
-      "sport": "football",
-      "rawId": 1391978931,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Manchester United",
-      "away": "Sabah FA",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1391937232",
       "sport": "football",
       "rawId": 1391937232,
@@ -422,6 +410,18 @@
       "competition": "UEFA Champions League",
       "home": "Como",
       "away": "RB Leipzig",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391978931",
+      "sport": "football",
+      "rawId": 1391978931,
+      "utcKickoff": "2026-09-10T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Manchester United",
+      "away": "Sabah FA",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
