@@ -1,0 +1,40 @@
+name: Check fixtures and send reminders
+
+on:
+  schedule:
+    - cron: "*/15 * * * *" # every 15 minutes (GitHub may delay this slightly at busy times)
+  workflow_dispatch: {} # lets you click "Run workflow" manually to test
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - name: Check fixtures / send push if due
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          WORKER_SECRET: ${{ secrets.WORKER_SECRET }}
+          HIGHLIGHTLY_FOOTBALL_KEY: ${{ secrets.HIGHLIGHTLY_FOOTBALL_KEY }}
+          HIGHLIGHTLY_NBA_KEY: ${{ secrets.HIGHLIGHTLY_NBA_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+        run: npm run check
+
+      - name: Commit updated fixtures + caches
+        run: |
+          git config user.name "matchday-bot"
+          git config user.email "actions@github.com"
+          git add frontend/fixtures.json scripts/leagues-cache.json scripts/last-refresh.json scripts/fixtures-by-sport.json
+          git diff --quiet --cached || git commit -m "Update fixtures"
+          git push

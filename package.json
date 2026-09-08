@@ -1,0 +1,13 @@
+{
+  "name": "matchday-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-fixtures.mjs",
+    "generate-vapid-keys": "node -e \"console.log(require('web-push').generateVAPIDKeys())\""
+  },
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

@@ -1,0 +1,11 @@
+name = "matchday-backend"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+kv_namespaces = [
+  { binding = "MATCHDAY_KV", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+]
+
+# Set these as Worker secrets (never commit real values):
+#   npx wrangler secret put AUTH_TOKEN
+#   npx wrangler secret put VAPID_PUBLIC_KEY
