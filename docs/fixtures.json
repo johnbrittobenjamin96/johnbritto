@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T18:17:54.389Z",
+  "generatedAt": "2026-09-08T18:46:07.518Z",
   "matches": [
     {
       "id": "football-1391932977",
@@ -104,8 +104,43 @@
       "home": "Real Madrid",
       "away": "Inter",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Real Madrid",
+          "formation": "4-3-3",
+          "players": [
+            "T. Courtois",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "D. Dumfries",
+            "J. Bellingham",
+            "F. Valverde",
+            "T. Alexander-Arnold",
+            "Vinícius Júnior",
+            "Kylian Mbappé",
+            "Brahim Díaz"
+          ]
+        },
+        "away": {
+          "name": "Inter",
+          "formation": "3-5-2",
+          "players": [
+            "Josep Martínez",
+            "A. Bastoni",
+            "Y. Bisseck",
+            "B. Pavard",
+            "Carlos Augusto",
+            "C. Jones",
+            "H. Çalhanoğlu",
+            "N. Barella",
+            "A. Diouf",
+            "M. Thuram",
+            "Lautaro Martínez"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391967017",
@@ -116,8 +151,43 @@
       "home": "Lille",
       "away": "Real Betis",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Lille",
+          "formation": "4-2-3-1",
+          "players": [
+            "B. Özer",
+            "R. Perraud",
+            "Alexsandro Ribeiro",
+            "N. Ngoy",
+            "Tiago Santos",
+            "N. Bentaleb",
+            "B. André",
+            "H. Haraldsson",
+            "G. Perrin",
+            "E. Mbappé",
+            "A. Ueda"
+          ]
+        },
+        "away": {
+          "name": "Real Betis",
+          "formation": "4-2-3-1",
+          "players": [
+            "Álvaro Vallés",
+            "Junior Firpo",
+            "Natan",
+            "Marc Bartra",
+            "Héctor Bellerín",
+            "Pablo Fornals",
+            "F. Bernal",
+            "Rodrigo Riquelme",
+            "Isco",
+            "Antony",
+            "T. Parrott"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391940636",
@@ -128,8 +198,43 @@
       "home": "Borussia Dortmund",
       "away": "Villarreal",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Borussia Dortmund",
+          "formation": "3-4-2-1",
+          "players": [
+            "G. Kobel",
+            "D. Svensson",
+            "W. Anton",
+            "Kouakou Joane Gadou",
+            "M. Beier",
+            "M. Sabitzer",
+            "J. Veerman",
+            "J. Ryerson",
+            "F. Nmecha",
+            "K. Karetsas",
+            "S. Guirassy"
+          ]
+        },
+        "away": {
+          "name": "Villarreal",
+          "formation": "4-4-2",
+          "players": [
+            "P. Gulácsi",
+            "Sergi Cardona",
+            "Renato Veiga",
+            "Pau Navarro",
+            "S. Mouriño",
+            "Santi Comesaña",
+            "N. Saliba",
+            "P. Gueye",
+            "T. Buchanan",
+            "G. Mikautadze",
+            "T. Oluwaseyi"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391942338",
@@ -140,8 +245,43 @@
       "home": "FC Porto",
       "away": "Manchester City",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "FC Porto",
+          "formation": "4-3-3",
+          "players": [
+            "Diogo Costa",
+            "Martim Fernandes",
+            "J. Kiwior",
+            "N. Pérez",
+            "Alberto Baio",
+            "Gabri Veiga",
+            "A. Varela",
+            "P. Rosario",
+            "Pepê Aquino",
+            "André Silva",
+            "William"
+          ]
+        },
+        "away": {
+          "name": "Manchester City",
+          "formation": "4-2-3-1",
+          "players": [
+            "G. Donnarumma",
+            "J. Gvardiol",
+            "M. Guéhi",
+            "Rúben Dias",
+            "Matheus Nunes",
+            "E. Fernández",
+            "A. Bouaddi",
+            "P. Foden",
+            "R. Cherki",
+            "A. Semenyo",
+            "E. Haaland"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1392016375",
