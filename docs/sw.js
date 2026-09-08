@@ -1,4 +1,4 @@
-const CACHE = "matchday-shell-v1";
+const CACHE = "matchday-shell-v2";
 const SHELL_FILES = [
   "./",
   "./index.html",
@@ -25,12 +25,23 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
-// Serve the app shell from cache, fall back to network for data files (fixtures.json etc).
+// Network-first for the app shell: always try to get the latest version when
+// online, and only fall back to the cached copy if there's no connection.
+// (An earlier version of this file cached-first, which meant every future
+// update needed a manual version bump above to actually show up — this
+// avoids that problem going forward.)
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.pathname.endsWith("fixtures.json")) return; // always go to network for live data
+
   event.respondWith(
-    caches.match(event.request).then((cached) => cached || fetch(event.request))
+    fetch(event.request)
+      .then((response) => {
+        const copy = response.clone();
+        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });
 
