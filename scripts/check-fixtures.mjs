@@ -262,7 +262,7 @@ async function main() {
 
   const allFixtures = Object.values(fixturesBySport).flat();
   await fs.writeFile(
-    "frontend/fixtures.json",
+    "docs/fixtures.json",
     JSON.stringify(
       { generatedAt: new Date().toISOString(), matches: allFixtures.sort((a, b) => new Date(a.utcKickoff) - new Date(b.utcKickoff)) },
       null,

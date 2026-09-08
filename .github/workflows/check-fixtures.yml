@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "matchday-bot"
           git config user.email "actions@github.com"
-          git add frontend/fixtures.json scripts/leagues-cache.json scripts/last-refresh.json scripts/fixtures-by-sport.json
+          git add docs/fixtures.json scripts/leagues-cache.json scripts/last-refresh.json scripts/fixtures-by-sport.json
           git diff --quiet --cached || git commit -m "Update fixtures"
           git push
