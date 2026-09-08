@@ -3,7 +3,7 @@ main = "worker.js"
 compatibility_date = "2025-01-01"
 
 kv_namespaces = [
-  { binding = "MATCHDAY_KV", id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID" }
+  { binding = "MATCHDAY_KV", id = "1898cef2e5a348278a9e94e90ebfa1ce" }
 ]
 
 # Set these as Worker secrets (never commit real values):

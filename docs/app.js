@@ -1,7 +1,7 @@
 // ====== FILL THESE IN AFTER YOU DEPLOY THE WORKER (see README step 4) ======
-const WORKER_URL = "https://REPLACE-ME.your-subdomain.workers.dev";
-const VAPID_PUBLIC_KEY = "REPLACE_WITH_YOUR_VAPID_PUBLIC_KEY";
-const APP_SECRET = "REPLACE_WITH_A_PASSWORD_YOU_MAKE_UP"; // must match AUTH_TOKEN secret on the Worker
+const WORKER_URL = "https://matchday-backend.johnbrittobenjamin96.workers.dev";
+const VAPID_PUBLIC_KEY = "BFA9qq9hC0g07k8skBjEkOUJpvd8fVzHwlRaxnXOmFIZfd5n5BsGv10Gd1ibosrr-sUhFTpuiTpIZ2zkWgJeqbI";
+const APP_SECRET = "7HDP3kqOfxyQFw7fYNJRk636lkRhn404"; // must match AUTH_TOKEN secret on the Worker
 // =============================================================================
 
 // Edit this list to add/remove the teams that show up in the "Teams" tab.
