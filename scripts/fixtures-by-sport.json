@@ -105,8 +105,43 @@
       "home": "Club Brugge KV",
       "away": "Aston Villa",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Club Brugge KV",
+          "formation": "4-2-3-1",
+          "players": [
+            "Y. Sommer",
+            "J. Seys",
+            "B. Mechele",
+            "Lee Han-Beom",
+            "K. Sabbe",
+            "H. Vanaken",
+            "F. Potts",
+            "Jan Virgili",
+            "H. Vetlesen",
+            "Carlos Forbs",
+            "N. Tresoldi"
+          ]
+        },
+        "away": {
+          "name": "Aston Villa",
+          "formation": "4-2-3-1",
+          "players": [
+            "Z. Suzuki",
+            "I. Maatsen",
+            "Pau Torres",
+            "V. Lindelöf",
+            "A. Wan-Bissaka",
+            "João Gomes",
+            "B. Kamara",
+            "George Hemmings",
+            "E. Buendía",
+            "J.  McGinn",
+            "N. Jackson"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391904043",
@@ -117,8 +152,43 @@
       "home": "AEK Athens FC",
       "away": "LASK Linz",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "AEK Athens FC",
+          "formation": "4-4-2",
+          "players": [
+            "A. Brignoli",
+            "S. Pilios",
+            "Filipe Relvas",
+            "H. Moukoudi",
+            "L. Rota",
+            "A. Koita",
+            "R. Marin",
+            "M. Vitális",
+            "L. Majer",
+            "L. Jović",
+            "B. Varga"
+          ]
+        },
+        "away": {
+          "name": "LASK Linz",
+          "formation": "5-3-2",
+          "players": [
+            "L. Jungwirth",
+            "G. Bello",
+            "A. Andrade",
+            "Alemão",
+            "X. Mbuyamba",
+            "K. Jørgensen",
+            "S. Horvath",
+            "R. Ljubičić",
+            "M. Bogarde",
+            "C. Lang",
+            "M. Usor"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391979782",
