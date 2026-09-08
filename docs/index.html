@@ -35,6 +35,18 @@
       </div>
     </section>
 
+    <!-- TEAM DETAIL (drill-in, opened by tapping any team name) -->
+    <section class="view" id="view-teamdetail">
+      <button class="back-btn" id="teamdetail-back">&larr; Back</button>
+      <div id="teamdetail-content"></div>
+    </section>
+
+    <!-- MY TEAM VIEW -->
+    <section class="view" id="view-myteam">
+      <div class="myteam-toggle" id="myteam-toggle"></div>
+      <div id="myteam-content"></div>
+    </section>
+
     <!-- TEAMS VIEW -->
     <section class="view" id="view-teams">
       <p class="subtitle" style="margin: 6px 2px 20px;">Pick the teams you want reminders for. This is saved on this phone.</p>
@@ -46,6 +58,9 @@
   <nav class="tabs">
     <button class="tab-btn active" data-view="view-fixtures">
       <span class="dot"></span>Fixtures
+    </button>
+    <button class="tab-btn" data-view="view-myteam">
+      <span class="dot"></span>My Team
     </button>
     <button class="tab-btn" data-view="view-teams">
       <span class="dot"></span>Teams

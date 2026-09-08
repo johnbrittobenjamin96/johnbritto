@@ -1,7 +1,7 @@
 // ====== FILL THESE IN AFTER YOU DEPLOY THE WORKER (see README step 4) ======
 const WORKER_URL = "https://matchday-backend.johnbrittobenjamin96.workers.dev";
 const VAPID_PUBLIC_KEY = "BFA9qq9hC0g07k8skBjEkOUJpvd8fVzHwlRaxnXOmFIZfd5n5BsGv10Gd1ibosrr-sUhFTpuiTpIZ2zkWgJeqbI";
-const APP_SECRET = "7HDP3kqOfxyQFw7fYNJRk636lkRhn404"; // must match AUTH_TOKEN secret on the Worker
+const APP_SECRET = "7HDP3kqOfxyQFw7fYNJRk636lkRhn404";
 // =============================================================================
 
 // Edit this list to add/remove the teams that show up in the "Teams" tab.
@@ -59,19 +59,43 @@ const LEAGUES = [
   },
 ];
 
+// These two are always tracked for notifications, no matter what's picked
+// in the Teams tab, and get their own dedicated toggle in the My Team tab.
+const PINNED_TEAMS = ["Manchester United", "Real Madrid"];
+
 const state = {
   selectedTeams: JSON.parse(localStorage.getItem("matchday.teams") || "[]"),
+  myTeamView: localStorage.getItem("matchday.myTeamView") || PINNED_TEAMS[0],
+  detailTeam: null, // whichever team was tapped into for the drill-in view
   fixtures: [],
 };
 
-// ---------- Tab switching ----------
+// Make sure the pinned teams are always part of the saved selection, once.
+PINNED_TEAMS.forEach((t) => {
+  if (!state.selectedTeams.includes(t)) state.selectedTeams.push(t);
+});
+localStorage.setItem("matchday.teams", JSON.stringify(state.selectedTeams));
+
+// ---------- View switching ----------
+// showView also handles the drill-in team-detail screen, which isn't one of
+// the bottom tabs — it just gets shown on top and "Back" returns to Teams.
+function showView(id) {
+  document.querySelectorAll(".tab-btn").forEach((b) => b.classList.toggle("active", b.dataset.view === id));
+  document.querySelectorAll(".view").forEach((v) => v.classList.toggle("active", v.id === id));
+}
+
 document.querySelectorAll(".tab-btn").forEach((btn) => {
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
-    document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
-    btn.classList.add("active");
-    document.getElementById(btn.dataset.view).classList.add("active");
-  });
+  btn.addEventListener("click", () => showView(btn.dataset.view));
+});
+
+document.getElementById("teamdetail-back").addEventListener("click", () => showView("view-teams"));
+
+// Tapping any team name anywhere in the app (fixture rows, hero, lineup
+// headers) opens that team's own fixture list. Event delegation means this
+// works for team-link spans added anywhere, including ones inserted later.
+document.body.addEventListener("click", (e) => {
+  const link = e.target.closest(".team-link");
+  if (link) openTeamDetail(link.dataset.team);
 });
 
 // ---------- Clock ----------
@@ -96,10 +120,11 @@ function renderTeamPicker() {
     const grid = document.createElement("div");
     grid.className = "chip-grid";
     league.teams.forEach((team) => {
+      const pinned = PINNED_TEAMS.includes(team);
       const chip = document.createElement("button");
-      chip.className = "chip" + (state.selectedTeams.includes(team) ? " selected" : "");
-      chip.textContent = team;
-      chip.addEventListener("click", () => toggleTeam(team, chip));
+      chip.className = "chip" + (state.selectedTeams.includes(team) || pinned ? " selected" : "");
+      chip.textContent = pinned ? `${team} ★` : team;
+      chip.addEventListener("click", () => openTeamDetail(team));
       grid.appendChild(chip);
     });
     group.appendChild(grid);
@@ -107,21 +132,112 @@ function renderTeamPicker() {
   });
 }
 
+// chipEl is optional now — the notify toggle inside Team Detail calls this
+// with no chip element, since it's not rendered from the Teams tab grid.
 function toggleTeam(team, chipEl) {
+  if (PINNED_TEAMS.includes(team)) return; // always on — see My Team tab
   const idx = state.selectedTeams.indexOf(team);
   if (idx >= 0) {
     state.selectedTeams.splice(idx, 1);
-    chipEl.classList.remove("selected");
+    if (chipEl) chipEl.classList.remove("selected");
   } else {
     state.selectedTeams.push(team);
-    chipEl.classList.add("selected");
+    if (chipEl) chipEl.classList.add("selected");
   }
   localStorage.setItem("matchday.teams", JSON.stringify(state.selectedTeams));
   syncSubscription(); // keep the backend's team list in sync so reminders match your picks
   renderFixtures();
 }
 
-// ---------- Fixtures ----------
+// ---------- Shared row/lineup rendering ----------
+// A clickable team name. Used everywhere a team shows up so tapping it
+// opens that team's own fixture list.
+function teamLink(name) {
+  return `<span class="team-link" data-team="${name}">${name}</span>`;
+}
+
+// focusTeam is optional: pass it when showing a single team's own list (so
+// each row reads "vs Opponent (H)/(A)"); omit it for the mixed Fixtures tab
+// (so each row reads "Team A (H) vs Team B (A)").
+function fixtureRowHtml(m, focusTeam) {
+  if (focusTeam) {
+    const isHome = m.home === focusTeam;
+    const opponent = isHome ? m.away : m.home;
+    const tag = isHome ? "H" : "A";
+    return `
+      <div class="fixture-row">
+        <div class="time-col">${formatDayTime(m.utcKickoff)}</div>
+        <div class="match-col">vs ${teamLink(opponent)} <span class="side-tag">${tag}</span></div>
+        <div class="comp-col">${m.competition}</div>
+      </div>`;
+  }
+  return `
+    <div class="fixture-row">
+      <div class="time-col">${formatDayTime(m.utcKickoff)}</div>
+      <div class="match-col">${teamLink(m.home)} <span class="side-tag">H</span> vs ${teamLink(m.away)} <span class="side-tag">A</span></div>
+      <div class="comp-col">${m.competition}</div>
+    </div>`;
+}
+
+function lineupBlockHtml(match) {
+  if (!match.lineup) {
+    return `<div class="empty-state">Lineups aren't out yet for this one — check back closer to kickoff.</div>`;
+  }
+  return `
+    <div class="lineup-block">
+      <div class="section-label">Starting lineups</div>
+      <div class="lineup-sides">
+        <div class="lineup-side">
+          <h4>${teamLink(match.lineup.home.name)}</h4>
+          ${match.lineup.home.formation ? `<div class="formation">${match.lineup.home.formation}</div>` : ""}
+          <ol>${match.lineup.home.players.map((p) => `<li>${p}</li>`).join("")}</ol>
+        </div>
+        <div class="lineup-side">
+          <h4>${teamLink(match.lineup.away.name)}</h4>
+          ${match.lineup.away.formation ? `<div class="formation">${match.lineup.away.formation}</div>` : ""}
+          <ol>${match.lineup.away.players.map((p) => `<li>${p}</li>`).join("")}</ol>
+        </div>
+      </div>
+    </div>`;
+}
+
+// The full panel for "here's one team's world": next match + lineup +
+// upcoming list. Shared by the My Team tab and the tap-any-team drill-in,
+// so the two stay visually and behaviorally consistent.
+function buildTeamPanelHtml(team, { showNotifyToggle }) {
+  const upcoming = state.fixtures
+    .filter((m) => m.home === team || m.away === team)
+    .filter((m) => new Date(m.utcKickoff).getTime() > Date.now())
+    .sort((a, b) => new Date(a.utcKickoff) - new Date(b.utcKickoff));
+
+  const pinned = PINNED_TEAMS.includes(team);
+  let header = `<div class="team-panel-header"><h2>${team}</h2>`;
+  if (showNotifyToggle) {
+    header += pinned
+      ? `<span class="notify-badge">★ Always notified</span>`
+      : `<button class="notify-toggle${state.selectedTeams.includes(team) ? " on" : ""}" id="notify-toggle-btn">${
+          state.selectedTeams.includes(team) ? "Notifying ✓" : "Notify me"
+        }</button>`;
+  }
+  header += `</div>`;
+
+  if (upcoming.length === 0) {
+    return `${header}<div class="hero empty">No upcoming ${team} matches on the schedule right now.</div>`;
+  }
+
+  const next = upcoming[0];
+  let html = header + `<div class="hero">${renderHero(next)}</div>`;
+  html += lineupBlockHtml(next);
+
+  if (upcoming.length > 1) {
+    html += `<div class="section-label">Also coming up</div><div class="fixture-list">`;
+    html += upcoming.slice(1, 8).map((m) => fixtureRowHtml(m, team)).join("");
+    html += `</div>`;
+  }
+  return html;
+}
+
+// ---------- Fixtures tab ----------
 async function loadFixtures() {
   try {
     const res = await fetch(`fixtures.json?ts=${Date.now()}`, { cache: "no-store" });
@@ -132,6 +248,8 @@ async function loadFixtures() {
     state.fixtures = [];
   }
   renderFixtures();
+  renderMyTeam();
+  if (state.detailTeam) renderTeamDetail();
 }
 
 function renderFixtures() {
@@ -157,17 +275,8 @@ function renderFixtures() {
 
   const next = mine[0];
   hero.innerHTML = renderHero(next);
-  list.innerHTML = mine
-    .slice(1, 15)
-    .map(
-      (m) => `
-      <div class="fixture-row">
-        <div class="time-col">${formatDayTime(m.utcKickoff)}</div>
-        <div class="match-col">${m.home} vs ${m.away}</div>
-        <div class="comp-col">${m.competition}</div>
-      </div>`
-    )
-    .join("") || `<div class="empty-state">That's everything on the schedule for now.</div>`;
+  list.innerHTML = mine.slice(1, 15).map((m) => fixtureRowHtml(m)).join("") ||
+    `<div class="empty-state">That's everything on the schedule for now.</div>`;
 }
 
 function renderHero(m) {
@@ -181,9 +290,9 @@ function renderHero(m) {
   return `
     <div class="eyebrow">Next up · ${m.competition}</div>
     <div class="teams">
-      <span>${m.home}</span>
+      <span>${teamLink(m.home)} <span class="side-tag">H</span></span>
       <span class="vs">vs</span>
-      <span>${m.away}</span>
+      <span>${teamLink(m.away)} <span class="side-tag">A</span></span>
     </div>
     <div class="countdown">
       <span class="num">${countdown}</span>
@@ -245,6 +354,50 @@ async function syncSubscription(explicitSub) {
   }
 }
 
+// ---------- My Team tab (pinned toggle) ----------
+function renderMyTeamToggle() {
+  const root = document.getElementById("myteam-toggle");
+  root.innerHTML = "";
+  PINNED_TEAMS.forEach((team) => {
+    const btn = document.createElement("button");
+    btn.textContent = team;
+    btn.className = team === state.myTeamView ? "active" : "";
+    btn.addEventListener("click", () => {
+      state.myTeamView = team;
+      localStorage.setItem("matchday.myTeamView", team);
+      renderMyTeam();
+    });
+    root.appendChild(btn);
+  });
+}
+
+function renderMyTeam() {
+  renderMyTeamToggle();
+  document.getElementById("myteam-content").innerHTML = buildTeamPanelHtml(state.myTeamView, { showNotifyToggle: false });
+}
+
+// ---------- Team Detail (tap any team, anywhere) ----------
+function openTeamDetail(team) {
+  state.detailTeam = team;
+  renderTeamDetail();
+  showView("view-teamdetail");
+}
+
+function renderTeamDetail() {
+  const team = state.detailTeam;
+  const content = document.getElementById("teamdetail-content");
+  content.innerHTML = buildTeamPanelHtml(team, { showNotifyToggle: true });
+
+  const notifyBtn = document.getElementById("notify-toggle-btn");
+  if (notifyBtn) {
+    notifyBtn.addEventListener("click", () => {
+      toggleTeam(team);
+      renderTeamPicker(); // keep the Teams tab chip grid in sync for when you go back
+      renderTeamDetail();
+    });
+  }
+}
+
 // ---------- Boot ----------
 async function boot() {
   if ("serviceWorker" in navigator) {
@@ -253,10 +406,15 @@ async function boot() {
   renderTeamPicker();
   await loadFixtures();
   setInterval(loadFixtures, 60 * 1000);
-  setInterval(renderFixtures, 30 * 1000); // keep the countdown ticking
+  setInterval(() => {
+    renderFixtures();
+    renderMyTeam();
+    if (state.detailTeam) renderTeamDetail();
+  }, 30 * 1000); // keep the countdown ticking
 
   const subscribed = await isSubscribed();
   document.getElementById("enable-banner").style.display = subscribed ? "none" : "flex";
+  if (subscribed) await syncSubscription(); // push the (possibly updated) team list, e.g. newly pinned teams
 }
 
 document.getElementById("enable-btn").addEventListener("click", enableNotifications);

@@ -166,7 +166,8 @@ function dateStr(d) {
   return d.toISOString().slice(0, 10);
 }
 
-async function fetchScheduleForSport(sport, leagueCache) {
+async function fetchScheduleForSport(sport, leagueCache, previousMatches) {
+  const previousById = new Map((previousMatches || []).map((m) => [m.id, m]));
   const all = [];
   for (const league of sport.leagues) {
     const primaryParam = sport.resolveLeague
@@ -185,8 +186,12 @@ async function fetchScheduleForSport(sport, leagueCache) {
       }
       for (const m of resp.data || []) {
         const parsed = sport.parseMatch(m);
+        const id = `${sport.id}-${m.id}`;
+        // Carry over any lineup we already captured for this match, so a
+        // schedule refresh doesn't erase lineups fetched between refreshes.
+        const prev = previousById.get(id);
         all.push({
-          id: `${sport.id}-${m.id}`,
+          id,
           sport: sport.id,
           rawId: m.id,
           utcKickoff: parsed.utcKickoff,
@@ -194,6 +199,8 @@ async function fetchScheduleForSport(sport, leagueCache) {
           home: parsed.home,
           away: parsed.away,
           allNotify: league.notifyMode === "all",
+          lineup: prev?.lineup || null,
+          lineupsAvailable: !!prev?.lineup,
         });
       }
     }
@@ -249,7 +256,7 @@ async function main() {
 
     if (hoursSince >= SCHEDULE_REFRESH_HOURS) {
       console.log(`[${sport.id}] refreshing schedule...`);
-      fixturesBySport[sport.id] = await fetchScheduleForSport(sport, leagueCache);
+      fixturesBySport[sport.id] = await fetchScheduleForSport(sport, leagueCache, fixturesBySport[sport.id]);
       lastRefresh[sport.id] = new Date().toISOString();
     } else {
       console.log(`[${sport.id}] refreshed ${hoursSince.toFixed(1)}h ago — using cache.`);
@@ -258,20 +265,24 @@ async function main() {
 
   await fs.writeFile("scripts/leagues-cache.json", JSON.stringify(leagueCache, null, 2));
   await fs.writeFile("scripts/last-refresh.json", JSON.stringify(lastRefresh, null, 2));
-  await fs.writeFile("scripts/fixtures-by-sport.json", JSON.stringify(fixturesBySport, null, 2));
 
   const allFixtures = Object.values(fixturesBySport).flat();
-  await fs.writeFile(
-    "docs/fixtures.json",
-    JSON.stringify(
-      { generatedAt: new Date().toISOString(), matches: allFixtures.sort((a, b) => new Date(a.utcKickoff) - new Date(b.utcKickoff)) },
-      null,
-      2
-    )
-  );
+
+  async function saveEverything() {
+    await fs.writeFile("scripts/fixtures-by-sport.json", JSON.stringify(fixturesBySport, null, 2));
+    await fs.writeFile(
+      "docs/fixtures.json",
+      JSON.stringify(
+        { generatedAt: new Date().toISOString(), matches: allFixtures.sort((a, b) => new Date(a.utcKickoff) - new Date(b.utcKickoff)) },
+        null,
+        2
+      )
+    );
+  }
 
   if (!subscription) {
     console.log("No push subscription yet — schedule refreshed, skipping notification check.");
+    await saveEverything();
     return;
   }
 
@@ -291,14 +302,21 @@ async function main() {
 
     const lineupTag = `${match.id}-lineup`;
     const [lo, hi] = sport.lineupWindowMin;
-    if (mins >= lo && mins <= hi && !alreadyNotified.includes(lineupTag)) {
+    if (!match.lineup && mins >= lo && mins <= hi && !alreadyNotified.includes(lineupTag)) {
       const lineup = await fetchLineupSummary(sport, match.rawId);
       if (lineup) {
+        // Attach it to the match object so it's saved into fixtures.json —
+        // `match` here is the same object sitting inside fixturesBySport,
+        // so this mutation is what makes lineups show up in the app.
+        match.lineup = lineup;
+        match.lineupsAvailable = true;
         const body = `${lineup.home.name} vs ${lineup.away.name} — starting lineups are out. Open the app for the full list.`;
         await sendPush(subscription, "Lineups are in", body, lineupTag);
       }
     }
   }
+
+  await saveEverything();
 }
 
 main().catch((err) => {
