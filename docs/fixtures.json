@@ -1,16 +1,6 @@
 {
-  "generatedAt": "2026-09-08T11:56:22.254Z",
+  "generatedAt": "2026-09-08T12:23:33.218Z",
   "matches": [
-    {
-      "id": "football-1391904043",
-      "sport": "football",
-      "rawId": 1391904043,
-      "utcKickoff": "2026-09-08T16:45:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "AEK Athens FC",
-      "away": "LASK Linz",
-      "allNotify": true
-    },
     {
       "id": "football-1391932977",
       "sport": "football",
@@ -19,27 +9,21 @@
       "competition": "UEFA Champions League",
       "home": "Club Brugge KV",
       "away": "Aston Villa",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
-      "id": "football-1391967017",
+      "id": "football-1391904043",
       "sport": "football",
-      "rawId": 1391967017,
-      "utcKickoff": "2026-09-08T19:00:00.000Z",
+      "rawId": 1391904043,
+      "utcKickoff": "2026-09-08T16:45:00.000Z",
       "competition": "UEFA Champions League",
-      "home": "Lille",
-      "away": "Real Betis",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391940636",
-      "sport": "football",
-      "rawId": 1391940636,
-      "utcKickoff": "2026-09-08T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Borussia Dortmund",
-      "away": "Villarreal",
-      "allNotify": true
+      "home": "AEK Athens FC",
+      "away": "LASK Linz",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391993398",
@@ -49,7 +33,33 @@
       "competition": "UEFA Champions League",
       "home": "Real Madrid",
       "away": "Inter",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391967017",
+      "sport": "football",
+      "rawId": 1391967017,
+      "utcKickoff": "2026-09-08T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Lille",
+      "away": "Real Betis",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391940636",
+      "sport": "football",
+      "rawId": 1391940636,
+      "utcKickoff": "2026-09-08T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Borussia Dortmund",
+      "away": "Villarreal",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391942338",
@@ -59,17 +69,9 @@
       "competition": "UEFA Champions League",
       "home": "FC Porto",
       "away": "Manchester City",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391920212",
-      "sport": "football",
-      "rawId": 1391920212,
-      "utcKickoff": "2026-09-09T16:45:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Barcelona",
-      "away": "Feyenoord",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1392016375",
@@ -79,7 +81,21 @@
       "competition": "UEFA Champions League",
       "home": "VfB Stuttgart",
       "away": "Viking",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391920212",
+      "sport": "football",
+      "rawId": 1391920212,
+      "utcKickoff": "2026-09-09T16:45:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Barcelona",
+      "away": "Feyenoord",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391979782",
@@ -89,27 +105,9 @@
       "competition": "UEFA Champions League",
       "home": "Napoli",
       "away": "Arsenal",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391985739",
-      "sport": "football",
-      "rawId": 1391985739,
-      "utcKickoff": "2026-09-09T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Paris Saint Germain",
-      "away": "Slovan Bratislava",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391969570",
-      "sport": "football",
-      "rawId": 1391969570,
-      "utcKickoff": "2026-09-09T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Liverpool",
-      "away": "Atlético Madrid",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1392012120",
@@ -119,7 +117,33 @@
       "competition": "UEFA Champions League",
       "home": "Sporting CP",
       "away": "Galatasaray",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391985739",
+      "sport": "football",
+      "rawId": 1391985739,
+      "utcKickoff": "2026-09-09T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Paris Saint Germain",
+      "away": "Slovan Bratislava",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391969570",
+      "sport": "football",
+      "rawId": 1391969570,
+      "utcKickoff": "2026-09-09T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Liverpool",
+      "away": "Atlético Madrid",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391988292",
@@ -129,7 +153,9 @@
       "competition": "UEFA Champions League",
       "home": "PSV Eindhoven",
       "away": "Shakhtar Donetsk",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391946593",
@@ -139,37 +165,9 @@
       "competition": "UEFA Champions League",
       "home": "Fenerbahce",
       "away": "AS Roma",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391937232",
-      "sport": "football",
-      "rawId": 1391937232,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Como",
-      "away": "RB Leipzig",
-      "allNotify": true
-    },
-    {
-      "id": "football-1391923616",
-      "sport": "football",
-      "rawId": 1391923616,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Bayern Munich",
-      "away": "Bodø/Glimt",
-      "allNotify": true
-    },
-    {
-      "id": "football-1392006163",
-      "sport": "football",
-      "rawId": 1392006163,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Slavia Praha",
-      "away": "Lens",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1391978931",
@@ -179,7 +177,45 @@
       "competition": "UEFA Champions League",
       "home": "Manchester United",
       "away": "Sabah FA",
-      "allNotify": true
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391937232",
+      "sport": "football",
+      "rawId": 1391937232,
+      "utcKickoff": "2026-09-10T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Como",
+      "away": "RB Leipzig",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391923616",
+      "sport": "football",
+      "rawId": 1391923616,
+      "utcKickoff": "2026-09-10T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Bayern Munich",
+      "away": "Bodø/Glimt",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1392006163",
+      "sport": "football",
+      "rawId": 1392006163,
+      "utcKickoff": "2026-09-10T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Slavia Praha",
+      "away": "Lens",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1340465348",
@@ -189,7 +225,9 @@
       "competition": "Bundesliga",
       "home": "Union Berlin",
       "away": "FC Schalke 04",
-      "allNotify": false
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1319158010",
@@ -199,7 +237,9 @@
       "competition": "Serie A",
       "home": "Venezia",
       "away": "Fiorentina",
-      "allNotify": false
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1321402097",
@@ -209,7 +249,9 @@
       "competition": "Ligue 1",
       "home": "Rennes FC",
       "away": "Marseille",
-      "allNotify": false
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
       "id": "football-1336395015",
@@ -219,7 +261,9 @@
       "competition": "La Liga",
       "home": "Sevilla FC",
       "away": "Valencia",
-      "allNotify": false
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
     }
   ]
 }
