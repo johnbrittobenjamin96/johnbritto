@@ -405,8 +405,43 @@
       "home": "VfB Stuttgart",
       "away": "Viking",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "VfB Stuttgart",
+          "formation": "4-2-3-1",
+          "players": [
+            "F. Bredlow",
+            "M. Mittelstädt",
+            "J. Chabot",
+            "Finn Jeltsch",
+            "J. Leweling",
+            "A. Stiller",
+            "G. Prömel",
+            "C. Führich",
+            "D. Undav",
+            "B. El Khannouss",
+            "E. Demirović"
+          ]
+        },
+        "away": {
+          "name": "Viking",
+          "formation": "4-3-3",
+          "players": [
+            "A. Østbø",
+            "K. Haugen",
+            "J. Daland",
+            "G. Stensness",
+            "H. Heggheim",
+            "K. Askildsen",
+            "J. Bell",
+            "T. Moi",
+            "Z. Tripić",
+            "P. Christiansen",
+            "H. Bjørdal"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391920212",
@@ -417,8 +452,43 @@
       "home": "Barcelona",
       "away": "Feyenoord",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "Joan García",
+            "João Cancelo",
+            "A. Christensen",
+            "Pau Cubarsí Paredes",
+            "J. Koundé",
+            "Pedri",
+            "Rodri",
+            "Dani Olmo",
+            "K. Adeyemi",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        },
+        "away": {
+          "name": "Feyenoord",
+          "formation": "4-3-3",
+          "players": [
+            "T. Ernst",
+            "Mika Màrmol",
+            "T. Watanabe",
+            "J. St. Juste",
+            "G. Read",
+            "L. Valente",
+            "C. Vanhoutte",
+            "G. Zechiël",
+            "Javi López",
+            "Nacho Ferri",
+            "A. Hadj-Moussa"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391978931",
