@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T12:23:15.147Z",
+  "generatedAt": "2026-09-09T12:48:08.634Z",
   "matches": [
     {
       "id": "football-1392016375",
@@ -26,18 +26,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391985739",
-      "sport": "football",
-      "rawId": 1391985739,
-      "utcKickoff": "2026-09-09T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Paris Saint Germain",
-      "away": "Slovan Bratislava",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1391979782",
       "sport": "football",
       "rawId": 1391979782,
@@ -45,6 +33,18 @@
       "competition": "UEFA Champions League",
       "home": "Napoli",
       "away": "Arsenal",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1392012120",
+      "sport": "football",
+      "rawId": 1392012120,
+      "utcKickoff": "2026-09-09T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Sporting CP",
+      "away": "Galatasaray",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -62,13 +62,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1392012120",
+      "id": "football-1391985739",
       "sport": "football",
-      "rawId": 1392012120,
+      "rawId": 1391985739,
       "utcKickoff": "2026-09-09T19:00:00.000Z",
       "competition": "UEFA Champions League",
-      "home": "Sporting CP",
-      "away": "Galatasaray",
+      "home": "Paris Saint Germain",
+      "away": "Slovan Bratislava",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -98,13 +98,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391937232",
+      "id": "football-1391978931",
       "sport": "football",
-      "rawId": 1391937232,
+      "rawId": 1391978931,
       "utcKickoff": "2026-09-10T19:00:00.000Z",
       "competition": "UEFA Champions League",
-      "home": "Como",
-      "away": "RB Leipzig",
+      "home": "Manchester United",
+      "away": "Sabah FA",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -122,13 +122,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391978931",
+      "id": "football-1391937232",
       "sport": "football",
-      "rawId": 1391978931,
+      "rawId": 1391937232,
       "utcKickoff": "2026-09-10T19:00:00.000Z",
       "competition": "UEFA Champions League",
-      "home": "Manchester United",
-      "away": "Sabah FA",
+      "home": "Como",
+      "away": "RB Leipzig",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -218,18 +218,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340461944",
-      "sport": "football",
-      "rawId": 1340461944,
-      "utcKickoff": "2026-09-12T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "1899 Hoffenheim",
-      "away": "VfB Stuttgart",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340464497",
       "sport": "football",
       "rawId": 1340464497,
@@ -242,13 +230,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340462795",
+      "id": "football-1340461944",
       "sport": "football",
-      "rawId": 1340462795,
+      "rawId": 1340461944,
       "utcKickoff": "2026-09-12T13:30:00.000Z",
       "competition": "Bundesliga",
-      "home": "SC Freiburg",
-      "away": "Borussia Mönchengladbach",
+      "home": "1899 Hoffenheim",
+      "away": "VfB Stuttgart",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -278,6 +266,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1340462795",
+      "sport": "football",
+      "rawId": 1340462795,
+      "utcKickoff": "2026-09-12T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "SC Freiburg",
+      "away": "Borussia Mönchengladbach",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1325350737",
       "sport": "football",
       "rawId": 1325350737,
@@ -285,30 +285,6 @@
       "competition": "Premier League",
       "home": "Liverpool",
       "away": "Fulham",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1325349035",
-      "sport": "football",
-      "rawId": 1325349035,
-      "utcKickoff": "2026-09-12T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Crystal Palace",
-      "away": "Ipswich",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1325345631",
-      "sport": "football",
-      "rawId": 1325345631,
-      "utcKickoff": "2026-09-12T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Aston Villa",
-      "away": "Nottingham Forest",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -326,6 +302,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1325345631",
+      "sport": "football",
+      "rawId": 1325345631,
+      "utcKickoff": "2026-09-12T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Aston Villa",
+      "away": "Nottingham Forest",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1325347333",
       "sport": "football",
       "rawId": 1325347333,
@@ -333,6 +321,18 @@
       "competition": "Premier League",
       "home": "Chelsea",
       "away": "Hull City",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325349035",
+      "sport": "football",
+      "rawId": 1325349035,
+      "utcKickoff": "2026-09-12T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Ipswich",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -422,25 +422,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321396140",
+      "id": "football-1321401246",
       "sport": "football",
-      "rawId": 1321396140,
+      "rawId": 1321401246,
       "utcKickoff": "2026-09-12T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "Auxerre",
-      "away": "Nice",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321397842",
-      "sport": "football",
-      "rawId": 1321397842,
-      "utcKickoff": "2026-09-12T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "LE Havre AC",
-      "away": "Angers",
+      "home": "Paris FC",
+      "away": "Lyon",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -458,13 +446,25 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321401246",
+      "id": "football-1321397842",
       "sport": "football",
-      "rawId": 1321401246,
+      "rawId": 1321397842,
       "utcKickoff": "2026-09-12T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "Paris FC",
-      "away": "Lyon",
+      "home": "LE Havre AC",
+      "away": "Angers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321396140",
+      "sport": "football",
+      "rawId": 1321396140,
+      "utcKickoff": "2026-09-12T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Nice",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
