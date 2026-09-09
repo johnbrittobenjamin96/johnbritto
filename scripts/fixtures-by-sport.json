@@ -357,8 +357,43 @@
       "home": "Napoli",
       "away": "Arsenal",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Napoli",
+          "formation": "4-3-3",
+          "players": [
+            "A. Meret",
+            "M. Olivera",
+            "Rafa Marín",
+            "Amir Rrahmani",
+            "G. Di Lorenzo",
+            "K. De Bruyne",
+            "S. Lobotka",
+            "B. Gilmour",
+            "Alisson Santos",
+            "R. Højlund",
+            "M. Politano"
+          ]
+        },
+        "away": {
+          "name": "Arsenal",
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "P. Hincapié",
+            "Gabriel Magalhães",
+            "E. Konsa",
+            "B. White",
+            "D. Rice",
+            "Mikel Merino",
+            "E. Eze",
+            "M. Ødegaard",
+            "B. Saka",
+            "V. Gyökeres"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1392012120",
@@ -369,8 +404,43 @@
       "home": "Sporting CP",
       "away": "Galatasaray",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Sporting CP",
+          "formation": "4-2-3-1",
+          "players": [
+            "Rui Silva",
+            "M. Araújo",
+            "Gonçalo Inácio",
+            "Eduardo Quaresma",
+            "G. Vagiannidis",
+            "I. Doumbia",
+            "Sergi Altimira",
+            "Luis Guilherme",
+            "R. Zalazar",
+            "Geny Catamo",
+            "L. Suárez"
+          ]
+        },
+        "away": {
+          "name": "Galatasaray",
+          "formation": "4-2-3-1",
+          "players": [
+            "U. Çakır",
+            "I. Jakobs",
+            "E. Elmalı",
+            "D. Sánchez",
+            "R. Sallai",
+            "Gabriel Sara",
+            "L. Torreira",
+            "B. Yılmaz",
+            "Y. Akgün",
+            "L. Sané",
+            "A. Batrakov"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391969570",
@@ -381,8 +451,43 @@
       "home": "Liverpool",
       "away": "Atlético Madrid",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Liverpool",
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson Becker",
+            "M. Kerkez",
+            "V. van Dijk",
+            "J. Jacquet",
+            "R. Araújo",
+            "A. Mac Allister",
+            "D. Szoboszlai",
+            "B. Barcola",
+            "F. Wirtz",
+            "R. Ngumoha",
+            "A. Isak"
+          ]
+        },
+        "away": {
+          "name": "Atlético Madrid",
+          "formation": "4-4-2",
+          "players": [
+            "J. Oblak",
+            "D. Hancko",
+            "Marc Pubill",
+            "C. Romero",
+            "Marcos Llorente",
+            "Álex Baena",
+            "Koke",
+            "Pablo Barrios",
+            "G. Simeone",
+            "J. Álvarez",
+            "Lee Kang-In"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391985739",
@@ -393,8 +498,43 @@
       "home": "Paris Saint Germain",
       "away": "Slovan Bratislava",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Paris Saint Germain",
+          "formation": "4-3-3",
+          "players": [
+            "M. Safonov",
+            "Nuno Mendes",
+            "W. Pacho",
+            "I. Zabarnyi",
+            "A. Hakimi",
+            "Fabián Ruiz",
+            "Vitinha",
+            "Pedro Fernández",
+            "M. Akliouche",
+            "O. Dembélé",
+            "Ferran Torres"
+          ]
+        },
+        "away": {
+          "name": "Slovan Bratislava",
+          "formation": "4-3-3",
+          "players": [
+            "D. Takáč",
+            "Sandro Cruz",
+            "S. Marković",
+            "K. Bajrič",
+            "C. Blackman",
+            "R. Ibrahim",
+            "P. Pokorný",
+            "Cristian Jesús Martínez",
+            "Suleiman Camara",
+            "A. Šporar",
+            "T. Barseghyan"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1392016375",
