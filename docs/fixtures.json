@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T18:44:35.938Z",
+  "generatedAt": "2026-09-10T18:58:11.375Z",
   "matches": [
     {
       "id": "football-1391988292",
@@ -104,8 +104,43 @@
       "home": "Manchester United",
       "away": "Sabah FA",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Manchester United",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Lammens",
+            "P. Dorgu",
+            "Lisandro Martínez",
+            "L. Yoro",
+            "N. Mazraoui",
+            "K. Mainoo",
+            "Y. Tielemans",
+            "Matheus Cunha",
+            "Bruno Fernandes",
+            "B. Mbeumo",
+            "B. Šeško"
+          ]
+        },
+        "away": {
+          "name": "Sabah FA",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Pokatilov",
+            "T. Puchacz",
+            "A. McCarthy",
+            "R. Daşdəmirov",
+            "A. Zedadka",
+            "I. Lepinjica",
+            "U. Rahmonaliyev",
+            "C. Nwachukwu",
+            "V. Simić",
+            "K. Parris",
+            "J. Mickels"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391923616",
@@ -116,8 +151,43 @@
       "home": "Bayern Munich",
       "away": "Bodø/Glimt",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Bayern Munich",
+          "formation": "4-2-3-1",
+          "players": [
+            "M. Neuer",
+            "A. Davies",
+            "J. Tah",
+            "D. Upamecano",
+            "K. Laimer",
+            "A. Pavlović",
+            "J. Kimmich",
+            "L. Díaz",
+            "J. Musiala",
+            "M. Olise",
+            "H. Kane"
+          ]
+        },
+        "away": {
+          "name": "Bodø/Glimt",
+          "formation": "4-3-3",
+          "players": [
+            "N. Haikin",
+            "F. Bjørkan",
+            "O. Bjørtuft",
+            "V. Nielsen",
+            "F. Sjøvold",
+            "S. Fet",
+            "P. Berg",
+            "J. Kitolano",
+            "O. Didrik Blomberg",
+            "A. Helmersen",
+            "S. Auklend"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1392006163",
@@ -128,8 +198,43 @@
       "home": "Slavia Praha",
       "away": "Lens",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Slavia Praha",
+          "formation": "3-4-2-1",
+          "players": [
+            "J. Markovič",
+            "Š. Chaloupek",
+            "D. Zima",
+            "T. Vlček",
+            "O. Kubiak",
+            "M. Sadílek",
+            "W. Nowak",
+            "S. Isife",
+            "D. Šturm",
+            "E. Ayaosi",
+            "M. Chytil"
+          ]
+        },
+        "away": {
+          "name": "Lens",
+          "formation": "3-4-2-1",
+          "players": [
+            "R. Risser",
+            "S. Sagnan",
+            "I. Ganiou",
+            "K. Antonio",
+            "M. Udol",
+            "A. Haidara",
+            "A. Bulatović",
+            "M. Skóraś",
+            "A. Sima",
+            "F. Thauvin",
+            "F. Ivanović"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391937232",
@@ -140,8 +245,43 @@
       "home": "Como",
       "away": "RB Leipzig",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Como",
+          "formation": "4-2-3-1",
+          "players": [
+            "J. Butez",
+            "Álex Valle",
+            "Jacobo Ramón Naveros",
+            "T. Chalobah",
+            "Yan Couto",
+            "Luis Milla",
+            "L. da Cunha",
+            "Assane Diao",
+            "N. Paz",
+            "M. Baturina",
+            "T. Douvikas"
+          ]
+        },
+        "away": {
+          "name": "RB Leipzig",
+          "formation": "4-3-3",
+          "players": [
+            "M. Vandevoordt",
+            "D. Raum",
+            "C. Lukeba",
+            "W. Orbán",
+            "R. Baku",
+            "C. Nkunku",
+            "N. Seiwald",
+            "N. El Aynaoui",
+            "A. Nusa",
+            "Marc Guiu",
+            "A. MaksimoviÄ"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1340465348",
