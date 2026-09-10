@@ -573,8 +573,43 @@
       "home": "PSV Eindhoven",
       "away": "Shakhtar Donetsk",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "PSV Eindhoven",
+          "formation": "4-3-3",
+          "players": [
+            "M. Kovář",
+            "F. Kostić",
+            "A. Obispo",
+            "L. Geertruida",
+            "S. Dest",
+            "P. Wanner",
+            "K. Sano",
+            "G. Til",
+            "R. van Bommel",
+            "R. Pepi",
+            "I. Perišić"
+          ]
+        },
+        "away": {
+          "name": "Shakhtar Donetsk",
+          "formation": "4-1-4-1",
+          "players": [
+            "D. Riznyk",
+            "Pedrinho",
+            "M. Matvienko",
+            "V. Bondar",
+            "Vinícius Tobias",
+            "O. Ocheretko",
+            "G. Mendoza",
+            "Isaque",
+            "Marlon Gomes",
+            "Alisson Santana",
+            "Kauã Elias"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1391946593",
@@ -585,8 +620,43 @@
       "home": "Fenerbahce",
       "away": "AS Roma",
       "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Fenerbahce",
+          "formation": "4-3-3",
+          "players": [
+            "Ederson",
+            "A. Brown",
+            "N. Aké",
+            "M. Škriniar",
+            "M. Müldür",
+            "B. Elmaz",
+            "N. Kanté",
+            "İ. Yüksek",
+            "K. Aktürkoğlu",
+            "V. Muriqi",
+            "M. Greenwood"
+          ]
+        },
+        "away": {
+          "name": "AS Roma",
+          "formation": "3-4-2-1",
+          "players": [
+            "M. Svilar",
+            "Hermoso",
+            "E. Ndicka",
+            "G. Mancini",
+            "Wesley",
+            "M. Koné",
+            "B. Cristante",
+            "D. Rensch",
+            "M. Soulé",
+            "P. Dybala",
+            "D. Malen"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     }
   ],
   "basketball": []
