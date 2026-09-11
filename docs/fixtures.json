@@ -1,288 +1,6 @@
 {
-  "generatedAt": "2026-09-11T05:16:30.933Z",
+  "generatedAt": "2026-09-11T05:42:08.692Z",
   "matches": [
-    {
-      "id": "football-1391946593",
-      "sport": "football",
-      "rawId": 1391946593,
-      "utcKickoff": "2026-09-10T16:45:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Fenerbahce",
-      "away": "AS Roma",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Fenerbahce",
-          "formation": "4-3-3",
-          "players": [
-            "Ederson",
-            "A. Brown",
-            "N. Aké",
-            "M. Škriniar",
-            "M. Müldür",
-            "B. Elmaz",
-            "N. Kanté",
-            "İ. Yüksek",
-            "K. Aktürkoğlu",
-            "V. Muriqi",
-            "M. Greenwood"
-          ]
-        },
-        "away": {
-          "name": "AS Roma",
-          "formation": "3-4-2-1",
-          "players": [
-            "M. Svilar",
-            "Hermoso",
-            "E. Ndicka",
-            "G. Mancini",
-            "Wesley",
-            "M. Koné",
-            "B. Cristante",
-            "D. Rensch",
-            "M. Soulé",
-            "P. Dybala",
-            "D. Malen"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1391988292",
-      "sport": "football",
-      "rawId": 1391988292,
-      "utcKickoff": "2026-09-10T16:45:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "PSV Eindhoven",
-      "away": "Shakhtar Donetsk",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "PSV Eindhoven",
-          "formation": "4-3-3",
-          "players": [
-            "M. Kovář",
-            "F. Kostić",
-            "A. Obispo",
-            "L. Geertruida",
-            "S. Dest",
-            "P. Wanner",
-            "K. Sano",
-            "G. Til",
-            "R. van Bommel",
-            "R. Pepi",
-            "I. Perišić"
-          ]
-        },
-        "away": {
-          "name": "Shakhtar Donetsk",
-          "formation": "4-1-4-1",
-          "players": [
-            "D. Riznyk",
-            "Pedrinho",
-            "M. Matvienko",
-            "V. Bondar",
-            "Vinícius Tobias",
-            "O. Ocheretko",
-            "G. Mendoza",
-            "Isaque",
-            "Marlon Gomes",
-            "Alisson Santana",
-            "Kauã Elias"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1392006163",
-      "sport": "football",
-      "rawId": 1392006163,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Slavia Praha",
-      "away": "Lens",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Slavia Praha",
-          "formation": "3-4-2-1",
-          "players": [
-            "J. Markovič",
-            "Š. Chaloupek",
-            "D. Zima",
-            "T. Vlček",
-            "O. Kubiak",
-            "M. Sadílek",
-            "W. Nowak",
-            "S. Isife",
-            "D. Šturm",
-            "E. Ayaosi",
-            "M. Chytil"
-          ]
-        },
-        "away": {
-          "name": "Lens",
-          "formation": "3-4-2-1",
-          "players": [
-            "R. Risser",
-            "S. Sagnan",
-            "I. Ganiou",
-            "K. Antonio",
-            "M. Udol",
-            "A. Haidara",
-            "A. Bulatović",
-            "M. Skóraś",
-            "A. Sima",
-            "F. Thauvin",
-            "F. Ivanović"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1391937232",
-      "sport": "football",
-      "rawId": 1391937232,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Como",
-      "away": "RB Leipzig",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Como",
-          "formation": "4-2-3-1",
-          "players": [
-            "J. Butez",
-            "Álex Valle",
-            "Jacobo Ramón Naveros",
-            "T. Chalobah",
-            "Yan Couto",
-            "Luis Milla",
-            "L. da Cunha",
-            "Assane Diao",
-            "N. Paz",
-            "M. Baturina",
-            "T. Douvikas"
-          ]
-        },
-        "away": {
-          "name": "RB Leipzig",
-          "formation": "4-3-3",
-          "players": [
-            "M. Vandevoordt",
-            "D. Raum",
-            "C. Lukeba",
-            "W. Orbán",
-            "R. Baku",
-            "C. Nkunku",
-            "N. Seiwald",
-            "N. El Aynaoui",
-            "A. Nusa",
-            "Marc Guiu",
-            "A. MaksimoviÄ"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1391923616",
-      "sport": "football",
-      "rawId": 1391923616,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Bayern Munich",
-      "away": "Bodø/Glimt",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Bayern Munich",
-          "formation": "4-2-3-1",
-          "players": [
-            "M. Neuer",
-            "A. Davies",
-            "J. Tah",
-            "D. Upamecano",
-            "K. Laimer",
-            "A. Pavlović",
-            "J. Kimmich",
-            "L. Díaz",
-            "J. Musiala",
-            "M. Olise",
-            "H. Kane"
-          ]
-        },
-        "away": {
-          "name": "Bodø/Glimt",
-          "formation": "4-3-3",
-          "players": [
-            "N. Haikin",
-            "F. Bjørkan",
-            "O. Bjørtuft",
-            "V. Nielsen",
-            "F. Sjøvold",
-            "S. Fet",
-            "P. Berg",
-            "J. Kitolano",
-            "O. Didrik Blomberg",
-            "A. Helmersen",
-            "S. Auklend"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1391978931",
-      "sport": "football",
-      "rawId": 1391978931,
-      "utcKickoff": "2026-09-10T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Manchester United",
-      "away": "Sabah FA",
-      "allNotify": true,
-      "lineup": {
-        "home": {
-          "name": "Manchester United",
-          "formation": "4-2-3-1",
-          "players": [
-            "S. Lammens",
-            "P. Dorgu",
-            "Lisandro Martínez",
-            "L. Yoro",
-            "N. Mazraoui",
-            "K. Mainoo",
-            "Y. Tielemans",
-            "Matheus Cunha",
-            "Bruno Fernandes",
-            "B. Mbeumo",
-            "B. Šeško"
-          ]
-        },
-        "away": {
-          "name": "Sabah FA",
-          "formation": "4-2-3-1",
-          "players": [
-            "S. Pokatilov",
-            "T. Puchacz",
-            "A. McCarthy",
-            "R. Daşdəmirov",
-            "A. Zedadka",
-            "I. Lepinjica",
-            "U. Rahmonaliyev",
-            "C. Nwachukwu",
-            "V. Simić",
-            "K. Parris",
-            "J. Mickels"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
     {
       "id": "football-1340465348",
       "sport": "football",
@@ -356,30 +74,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340463646",
-      "sport": "football",
-      "rawId": 1340463646,
-      "utcKickoff": "2026-09-12T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "FC Augsburg",
-      "away": "Bayer Leverkusen",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1340460242",
-      "sport": "football",
-      "rawId": 1340460242,
-      "utcKickoff": "2026-09-12T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "Borussia Dortmund",
-      "away": "SC Paderborn 07",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340461944",
       "sport": "football",
       "rawId": 1340461944,
@@ -399,6 +93,30 @@
       "competition": "Bundesliga",
       "home": "FSV Mainz 05",
       "away": "Eintracht Frankfurt",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340463646",
+      "sport": "football",
+      "rawId": 1340463646,
+      "utcKickoff": "2026-09-12T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "FC Augsburg",
+      "away": "Bayer Leverkusen",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340460242",
+      "sport": "football",
+      "rawId": 1340460242,
+      "utcKickoff": "2026-09-12T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "SC Paderborn 07",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -440,18 +158,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1325346482",
-      "sport": "football",
-      "rawId": 1325346482,
-      "utcKickoff": "2026-09-12T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Bournemouth",
-      "away": "Brentford",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325350737",
       "sport": "football",
       "rawId": 1325350737,
@@ -459,6 +165,18 @@
       "competition": "Premier League",
       "home": "Liverpool",
       "away": "Fulham",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325346482",
+      "sport": "football",
+      "rawId": 1325346482,
+      "utcKickoff": "2026-09-12T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Bournemouth",
+      "away": "Brentford",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -560,13 +278,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321400395",
+      "id": "football-1321397842",
       "sport": "football",
-      "rawId": 1321400395,
+      "rawId": 1321397842,
       "utcKickoff": "2026-09-12T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "Lorient",
-      "away": "Toulouse",
+      "home": "LE Havre AC",
+      "away": "Angers",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -596,13 +314,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321397842",
+      "id": "football-1321400395",
       "sport": "football",
-      "rawId": 1321397842,
+      "rawId": 1321400395,
       "utcKickoff": "2026-09-12T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "LE Havre AC",
-      "away": "Angers",
+      "home": "Lorient",
+      "away": "Toulouse",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -795,6 +513,66 @@
       "competition": "La Liga",
       "home": "Real Sociedad",
       "away": "Atlético Madrid",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319157159",
+      "sport": "football",
+      "rawId": 1319157159,
+      "utcKickoff": "2026-09-14T16:30:00.000Z",
+      "competition": "Serie A",
+      "home": "Torino",
+      "away": "AS Roma",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319151202",
+      "sport": "football",
+      "rawId": 1319151202,
+      "utcKickoff": "2026-09-14T16:30:00.000Z",
+      "competition": "Serie A",
+      "home": "Como",
+      "away": "Parma",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319152904",
+      "sport": "football",
+      "rawId": 1319152904,
+      "utcKickoff": "2026-09-14T18:45:00.000Z",
+      "competition": "Serie A",
+      "home": "Inter",
+      "away": "Udinese",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325349886",
+      "sport": "football",
+      "rawId": 1325349886,
+      "utcKickoff": "2026-09-14T19:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Leeds",
+      "away": "Newcastle United",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336395866",
+      "sport": "football",
+      "rawId": 1336395866,
+      "utcKickoff": "2026-09-14T19:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Villarreal",
+      "away": "Real Betis",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
