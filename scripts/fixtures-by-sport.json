@@ -199,8 +199,43 @@
       "home": "Real Madrid",
       "away": "Rayo Vallecano",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Real Madrid",
+          "formation": "4-2-3-1",
+          "players": [
+            "T. Courtois",
+            "Álvaro Fernández",
+            "I. Konaté",
+            "A. Rüdiger",
+            "D. Dumfries",
+            "Bernardo Silva",
+            "F. Valverde",
+            "Vinícius Júnior",
+            "J. Bellingham",
+            "Y. Diomande",
+            "Kylian Mbappé"
+          ]
+        },
+        "away": {
+          "name": "Rayo Vallecano",
+          "formation": "4-2-3-1",
+          "players": [
+            "E. Audero",
+            "Adrià Pedrosa",
+            "P. Ciss",
+            "F. Lejeune",
+            "A. Rațiu",
+            "G. Bouare",
+            "Unai López",
+            "Álvaro García",
+            "Pedro Díaz",
+            "G. Tsitaishvili",
+            "Sergio Camello"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336388207",
