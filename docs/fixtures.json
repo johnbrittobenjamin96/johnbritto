@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T15:43:02.387Z",
+  "generatedAt": "2026-09-12T15:55:22.953Z",
   "matches": [
     {
       "id": "football-1336392462",
@@ -283,8 +283,43 @@
       "home": "Lazio",
       "away": "AC Milan",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Lazio",
+          "formation": "4-3-3",
+          "players": [
+            "Christos Mandas",
+            "Nuno Tavares",
+            "Oliver Provstgaard",
+            "Josip Šutalo",
+            "Romano Floriani Mussolini",
+            "Kenneth Taylor",
+            "Reda Belahyane",
+            "Davide Frattesi",
+            "Mattia Zaccagni",
+            "Tijjani Noslin",
+            "Matteo Cancellieri"
+          ]
+        },
+        "away": {
+          "name": "AC Milan",
+          "formation": "3-4-2-1",
+          "players": [
+            "Mike Maignan",
+            "Strahinja Pavlović",
+            "Koni De Winter",
+            "Mario Gila",
+            "Pervis Estupiñán",
+            "Adrien Rabiot",
+            "Luka Modrić",
+            "Samuel Chukwueze",
+            "Alphadjo Cissè",
+            "Ruben Loftus-Cheek",
+            "Gonçalo Ramos"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325353290",
