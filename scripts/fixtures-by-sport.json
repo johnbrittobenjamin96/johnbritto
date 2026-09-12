@@ -417,8 +417,43 @@
       "home": "Borussia Dortmund",
       "away": "SC Paderborn 07",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Borussia Dortmund",
+          "formation": "3-4-2-1",
+          "players": [
+            "G. Kobel",
+            "N. Schlotterbeck",
+            "W. Anton",
+            "Kouakou Joane Gadou",
+            "D. Svensson",
+            "J. Bellingham",
+            "J. Veerman",
+            "J. Ryerson",
+            "Fábio Silva",
+            "E. Nwaneri",
+            "S. Guirassy"
+          ]
+        },
+        "away": {
+          "name": "SC Paderborn 07",
+          "formation": "3-5-2",
+          "players": [
+            "N. Noll",
+            "M. Hansen",
+            "T. Scheller",
+            "J. ter Horst",
+            "R. Obermair",
+            "G. Vidović",
+            "S. Castañeda",
+            "L. Ulrich",
+            "L. Curda",
+            "M. Pieringer",
+            "S. Marino"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1340463646",
