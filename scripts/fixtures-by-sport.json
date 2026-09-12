@@ -9,8 +9,43 @@
       "home": "Sunderland",
       "away": "Arsenal",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Sunderland",
+          "formation": "4-2-3-1",
+          "players": [
+            "R. Roefs",
+            "Reinildo",
+            "D. Ballard",
+            "K. Danso",
+            "N. Mukiele",
+            "N. Sadiki",
+            "G. Xhaka",
+            "N. Angulo",
+            "E. Le Fée",
+            "T. Meunier",
+            "B. Brobbey"
+          ]
+        },
+        "away": {
+          "name": "Arsenal",
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "R. Calafiori",
+            "Gabriel Magalhães",
+            "E. Konsa",
+            "B. White",
+            "M. Lewis-Skelly",
+            "D. Rice",
+            "C. Tzolis",
+            "M. Ødegaard",
+            "B. Saka",
+            "K. Havertz"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325353290",
