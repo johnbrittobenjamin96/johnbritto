@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:16:27.309Z",
+  "generatedAt": "2026-09-12T13:40:11.311Z",
   "matches": [
     {
       "id": "football-1336392462",
@@ -129,8 +129,43 @@
       "home": "Liverpool",
       "away": "Fulham",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Liverpool",
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson Becker",
+            "K. Tsimikas",
+            "V. van Dijk",
+            "J. Jacquet",
+            "R. Araújo",
+            "R. Gravenberch",
+            "D. Szoboszlai",
+            "B. Barcola",
+            "F. Wirtz",
+            "Víctor Muñoz",
+            "A. Isak"
+          ]
+        },
+        "away": {
+          "name": "Fulham",
+          "formation": "4-2-3-1",
+          "players": [
+            "B. Leno",
+            "A. Robinson",
+            "C. Bassey",
+            "D. Affengruber",
+            "T. Castagne",
+            "S. Charles",
+            "S. Berge",
+            "A. Iwobi",
+            "Joshua King",
+            "Oscar Bobb",
+            "Gonzalo García"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325346482",
@@ -165,8 +200,43 @@
       "home": "Chelsea",
       "away": "Hull City",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Chelsea",
+          "formation": "3-4-2-1",
+          "players": [
+            "E. Martínez",
+            "J. Hato",
+            "L. Colwill",
+            "W. Fofana",
+            "M. Gusto",
+            "R. Lavia",
+            "R. James",
+            "Pedro Neto",
+            "M. Rogers",
+            "C. Palmer",
+            "João Pedro"
+          ]
+        },
+        "away": {
+          "name": "Hull City",
+          "formation": "5-4-1",
+          "players": [
+            "K. Tzolakis",
+            "R. Giles",
+            "N. Mendy",
+            "J. Egan",
+            "S. Ajayi",
+            "L. Coyle",
+            "E. Stroud",
+            "R. Slater",
+            "M. Crooks",
+            "M. Belloumi",
+            "O. McBurnie"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325345631",
