@@ -271,8 +271,43 @@
       "home": "Napoli",
       "away": "Bologna",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Napoli",
+          "formation": "4-3-3",
+          "players": [
+            "Vanja Milinković-Savić",
+            "Leonardo Spinazzola",
+            "Rafa Marín",
+            "Amir Rrahmani",
+            "Giovanni Di Lorenzo",
+            "Kevin De Bruyne",
+            "Stanislav Lobotka",
+            "Billy Gilmour",
+            "Antonio Vergara",
+            "Rasmus Højlund",
+            "Matteo Politano"
+          ]
+        },
+        "away": {
+          "name": "Bologna",
+          "formation": "4-3-3",
+          "players": [
+            "Massimo Pessina",
+            "Juan Miranda",
+            "Arthur Theate",
+            "Torbjørn Heggem",
+            "Emil Holm",
+            "Mikel Amondarain",
+            "Lewis Ferguson",
+            "Tommaso Pobega",
+            "Nicolò Cambiaghi",
+            "Roberto Piccoli",
+            "Federico Bernardeschi"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1319154606",
