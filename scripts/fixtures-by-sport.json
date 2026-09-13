@@ -259,8 +259,43 @@
       "home": "Sassuolo",
       "away": "Juventus",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Sassuolo",
+          "formation": "4-3-3",
+          "players": [
+            "Arijanet Murić",
+            "Josh Doig",
+            "Fedde Leysen",
+            "Jay Idzes",
+            "Simone Cinquegrano",
+            "Luca Lipani",
+            "Nemanja Matić",
+            "Kristian Thorstvedt",
+            "Armand Laurienté",
+            "Sebastiano Esposito",
+            "Domenico Berardi"
+          ]
+        },
+        "away": {
+          "name": "Juventus",
+          "formation": "4-2-3-1",
+          "players": [
+            "Guglielmo Vicario",
+            "Zeki Çelik",
+            "Jhon Lucumí",
+            "Gleison Bremer",
+            "Pierre Kalulu",
+            "Teun Koopmeiners",
+            "Douglas Luiz",
+            "Kerim Alajbegović",
+            "Nicolás González",
+            "Francisco Conceição",
+            "Randal Kolo Muani"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1319155457",
