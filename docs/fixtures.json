@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T13:52:47.449Z",
+  "generatedAt": "2026-09-13T14:13:57.801Z",
   "matches": [
     {
       "id": "football-1336389058",
@@ -70,8 +70,43 @@
       "home": "Levante",
       "away": "Barcelona",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Levante",
+          "formation": "4-3-3",
+          "players": [
+            "M. Ryan",
+            "Manu Sánchez",
+            "A. Mandi",
+            "Dela",
+            "J. Toljan",
+            "Jon Ander Olasagasti",
+            "Hugo Sotelo",
+            "Reque",
+            "Víctor García",
+            "P. Ratkov",
+            "Brugui"
+          ]
+        },
+        "away": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "Joan García",
+            "X. Espart",
+            "Gerard Martín",
+            "Pau Cubarsí Paredes",
+            "Eric García",
+            "Pedri",
+            "Rodri",
+            "Fermín",
+            "A. Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1321398693",
