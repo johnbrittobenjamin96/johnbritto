@@ -9,8 +9,43 @@
       "home": "Manchester United",
       "away": "Manchester City",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Manchester United",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Lammens",
+            "P. Dorgu",
+            "Lisandro Martínez",
+            "H. Maguire",
+            "Diogo Dalot",
+            "K. Mainoo",
+            "Y. Tielemans",
+            "M. Rashford",
+            "Bruno Fernandes",
+            "B. Mbeumo",
+            "Matheus Cunha"
+          ]
+        },
+        "away": {
+          "name": "Manchester City",
+          "formation": "4-2-3-1",
+          "players": [
+            "G. Donnarumma",
+            "J. Gvardiol",
+            "M. Guéhi",
+            "Rúben Dias",
+            "Matheus Nunes",
+            "E. Anderson",
+            "E. Fernández",
+            "A. Semenyo",
+            "R. Cherki",
+            "P. Foden",
+            "E. Haaland"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325348184",
@@ -296,8 +331,43 @@
       "home": "SV Elversberg",
       "away": "Bayern Munich",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "SV Elversberg",
+          "formation": "4-2-3-1",
+          "players": [
+            "N. Kristof",
+            "L. Günther",
+            "M. Rohr",
+            "L. Pinckert",
+            "J. Gyamerah",
+            "Ł. Poręba",
+            "F. Keidel",
+            "William Cole Campbell",
+            "Francis-Ikechukwu Onyeka",
+            "L. Petkov",
+            "D. Mokwa"
+          ]
+        },
+        "away": {
+          "name": "Bayern Munich",
+          "formation": "4-2-3-1",
+          "players": [
+            "J. Urbig",
+            "N. Brown",
+            "Kim Min-Jae",
+            "D. Upamecano",
+            "J. Stanišić",
+            "A. Pavlović",
+            "T. Bischof",
+            "I. Saibari",
+            "M. Olise",
+            "L. Karl",
+            "H. Kane"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1340461093",
