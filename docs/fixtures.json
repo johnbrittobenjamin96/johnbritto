@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:43:58.389Z",
+  "generatedAt": "2026-09-13T14:56:28.283Z",
   "matches": [
     {
       "id": "football-1336389058",
@@ -205,18 +205,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1319157159",
-      "sport": "football",
-      "rawId": 1319157159,
-      "utcKickoff": "2026-09-14T16:30:00.000Z",
-      "competition": "Serie A",
-      "home": "Torino",
-      "away": "AS Roma",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1319151202",
       "sport": "football",
       "rawId": 1319151202,
@@ -224,6 +212,18 @@
       "competition": "Serie A",
       "home": "Como",
       "away": "Parma",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319157159",
+      "sport": "football",
+      "rawId": 1319157159,
+      "utcKickoff": "2026-09-14T16:30:00.000Z",
+      "competition": "Serie A",
+      "home": "Torino",
+      "away": "AS Roma",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -301,18 +301,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1336397568",
-      "sport": "football",
-      "rawId": 1336397568,
-      "utcKickoff": "2026-09-16T17:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Atlético Madrid",
-      "away": "Osasuna",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336400121",
       "sport": "football",
       "rawId": 1336400121,
@@ -320,6 +308,18 @@
       "competition": "La Liga",
       "home": "Deportivo La Coruña",
       "away": "Sevilla FC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336397568",
+      "sport": "football",
+      "rawId": 1336397568,
+      "utcKickoff": "2026-09-16T17:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Atlético Madrid",
+      "away": "Osasuna",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
