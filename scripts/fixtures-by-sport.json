@@ -141,8 +141,43 @@
       "home": "Inter",
       "away": "Udinese",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Inter",
+          "formation": "3-5-2",
+          "players": [
+            "Josep Martínez",
+            "Alessandro Bastoni",
+            "Manuel Akanji",
+            "John Stones",
+            "Carlos Augusto",
+            "Henrikh Mkhitaryan",
+            "Piotr Zieliński",
+            "Nicolò Barella",
+            "Andy Diouf",
+            "Pio Esposito",
+            "Marcus Thuram"
+          ]
+        },
+        "away": {
+          "name": "Udinese",
+          "formation": "3-4-2-1",
+          "players": [
+            "Maduka Okoye",
+            "Enzo Ebosse",
+            "Christian Kabasele",
+            "James Abankwah",
+            "Hassane Kamara",
+            "Lennon Miller",
+            "Jesper Karlström",
+            "Mërgim Vojvoda",
+            "Jürgen Ekkelenkamp",
+            "Unai Gómez",
+            "Keinan Davis"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1319151202",
