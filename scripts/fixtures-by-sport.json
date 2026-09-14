@@ -1,65 +1,6 @@
 {
   "football": [
     {
-      "id": "football-1325351588",
-      "sport": "football",
-      "rawId": 1325351588,
-      "utcKickoff": "2026-09-13T15:30:00.000Z",
-      "competition": "Premier League",
-      "home": "Manchester United",
-      "away": "Manchester City",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Manchester United",
-          "formation": "4-2-3-1",
-          "players": [
-            "S. Lammens",
-            "P. Dorgu",
-            "Lisandro Martínez",
-            "H. Maguire",
-            "Diogo Dalot",
-            "K. Mainoo",
-            "Y. Tielemans",
-            "M. Rashford",
-            "Bruno Fernandes",
-            "B. Mbeumo",
-            "Matheus Cunha"
-          ]
-        },
-        "away": {
-          "name": "Manchester City",
-          "formation": "4-2-3-1",
-          "players": [
-            "G. Donnarumma",
-            "J. Gvardiol",
-            "M. Guéhi",
-            "Rúben Dias",
-            "Matheus Nunes",
-            "E. Anderson",
-            "E. Fernández",
-            "A. Semenyo",
-            "R. Cherki",
-            "P. Foden",
-            "E. Haaland"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1325348184",
-      "sport": "football",
-      "rawId": 1325348184,
-      "utcKickoff": "2026-09-13T13:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Coventry",
-      "away": "Brighton",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325349886",
       "sport": "football",
       "rawId": 1325349886,
@@ -67,89 +8,6 @@
       "competition": "Premier League",
       "home": "Leeds",
       "away": "Newcastle United",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336394164",
-      "sport": "football",
-      "rawId": 1336394164,
-      "utcKickoff": "2026-09-13T19:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Real Sociedad",
-      "away": "Atlético Madrid",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336389909",
-      "sport": "football",
-      "rawId": 1336389909,
-      "utcKickoff": "2026-09-13T16:30:00.000Z",
-      "competition": "La Liga",
-      "home": "Getafe",
-      "away": "Deportivo La Coruña",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336390760",
-      "sport": "football",
-      "rawId": 1336390760,
-      "utcKickoff": "2026-09-13T14:15:00.000Z",
-      "competition": "La Liga",
-      "home": "Levante",
-      "away": "Barcelona",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Levante",
-          "formation": "4-3-3",
-          "players": [
-            "M. Ryan",
-            "Manu Sánchez",
-            "A. Mandi",
-            "Dela",
-            "J. Toljan",
-            "Jon Ander Olasagasti",
-            "Hugo Sotelo",
-            "Reque",
-            "Víctor García",
-            "P. Ratkov",
-            "Brugui"
-          ]
-        },
-        "away": {
-          "name": "Barcelona",
-          "formation": "4-3-3",
-          "players": [
-            "Joan García",
-            "X. Espart",
-            "Gerard Martín",
-            "Pau Cubarsí Paredes",
-            "Eric García",
-            "Pedri",
-            "Rodri",
-            "Fermín",
-            "A. Gordon",
-            "Raphinha",
-            "Lamine Yamal"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1336389058",
-      "sport": "football",
-      "rawId": 1336389058,
-      "utcKickoff": "2026-09-13T12:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Celta de Vigo",
-      "away": "Malaga",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -251,107 +109,25 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1319156308",
+      "id": "football-1336402674",
       "sport": "football",
-      "rawId": 1319156308,
-      "utcKickoff": "2026-09-13T18:45:00.000Z",
-      "competition": "Serie A",
-      "home": "Sassuolo",
-      "away": "Juventus",
+      "rawId": 1336402674,
+      "utcKickoff": "2026-09-17T19:30:00.000Z",
+      "competition": "La Liga",
+      "home": "Malaga",
+      "away": "Villarreal",
       "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Sassuolo",
-          "formation": "4-3-3",
-          "players": [
-            "Arijanet Murić",
-            "Josh Doig",
-            "Fedde Leysen",
-            "Jay Idzes",
-            "Simone Cinquegrano",
-            "Luca Lipani",
-            "Nemanja Matić",
-            "Kristian Thorstvedt",
-            "Armand Laurienté",
-            "Sebastiano Esposito",
-            "Domenico Berardi"
-          ]
-        },
-        "away": {
-          "name": "Juventus",
-          "formation": "4-2-3-1",
-          "players": [
-            "Guglielmo Vicario",
-            "Zeki Çelik",
-            "Jhon Lucumí",
-            "Gleison Bremer",
-            "Pierre Kalulu",
-            "Teun Koopmeiners",
-            "Douglas Luiz",
-            "Kerim Alajbegović",
-            "Nicolás González",
-            "Francisco Conceição",
-            "Randal Kolo Muani"
-          ]
-        }
-      },
-      "lineupsAvailable": true
+      "lineup": null,
+      "lineupsAvailable": false
     },
     {
-      "id": "football-1319155457",
+      "id": "football-1336399270",
       "sport": "football",
-      "rawId": 1319155457,
-      "utcKickoff": "2026-09-13T16:00:00.000Z",
-      "competition": "Serie A",
-      "home": "Napoli",
-      "away": "Bologna",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Napoli",
-          "formation": "4-3-3",
-          "players": [
-            "Vanja Milinković-Savić",
-            "Leonardo Spinazzola",
-            "Rafa Marín",
-            "Amir Rrahmani",
-            "Giovanni Di Lorenzo",
-            "Kevin De Bruyne",
-            "Stanislav Lobotka",
-            "Billy Gilmour",
-            "Antonio Vergara",
-            "Rasmus Højlund",
-            "Matteo Politano"
-          ]
-        },
-        "away": {
-          "name": "Bologna",
-          "formation": "4-3-3",
-          "players": [
-            "Massimo Pessina",
-            "Juan Miranda",
-            "Arthur Theate",
-            "Torbjørn Heggem",
-            "Emil Holm",
-            "Mikel Amondarain",
-            "Lewis Ferguson",
-            "Tommaso Pobega",
-            "Nicolò Cambiaghi",
-            "Roberto Piccoli",
-            "Federico Bernardeschi"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1319154606",
-      "sport": "football",
-      "rawId": 1319154606,
-      "utcKickoff": "2026-09-13T13:00:00.000Z",
-      "competition": "Serie A",
-      "home": "Lecce",
-      "away": "Monza",
+      "rawId": 1336399270,
+      "utcKickoff": "2026-09-17T17:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Real Betis",
+      "away": "Getafe",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -388,101 +164,6 @@
       "competition": "Serie A",
       "home": "Torino",
       "away": "AS Roma",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1340467050",
-      "sport": "football",
-      "rawId": 1340467050,
-      "utcKickoff": "2026-09-13T15:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "SV Elversberg",
-      "away": "Bayern Munich",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "SV Elversberg",
-          "formation": "4-2-3-1",
-          "players": [
-            "N. Kristof",
-            "L. Günther",
-            "M. Rohr",
-            "L. Pinckert",
-            "J. Gyamerah",
-            "Ł. Poręba",
-            "F. Keidel",
-            "William Cole Campbell",
-            "Francis-Ikechukwu Onyeka",
-            "L. Petkov",
-            "D. Mokwa"
-          ]
-        },
-        "away": {
-          "name": "Bayern Munich",
-          "formation": "4-2-3-1",
-          "players": [
-            "J. Urbig",
-            "N. Brown",
-            "Kim Min-Jae",
-            "D. Upamecano",
-            "J. Stanišić",
-            "A. Pavlović",
-            "T. Bischof",
-            "I. Saibari",
-            "M. Olise",
-            "L. Karl",
-            "H. Kane"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1340461093",
-      "sport": "football",
-      "rawId": 1340461093,
-      "utcKickoff": "2026-09-13T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "RB Leipzig",
-      "away": "Hamburger SV",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321396991",
-      "sport": "football",
-      "rawId": 1321396991,
-      "utcKickoff": "2026-09-13T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "Paris Saint Germain",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321398693",
-      "sport": "football",
-      "rawId": 1321398693,
-      "utcKickoff": "2026-09-13T15:15:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Le Mans",
-      "away": "Lens",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321399544",
-      "sport": "football",
-      "rawId": 1321399544,
-      "utcKickoff": "2026-09-13T13:00:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Lille",
-      "away": "Estac Troyes",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
