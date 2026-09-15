@@ -1,101 +1,6 @@
 {
-  "generatedAt": "2026-09-15T07:16:56.002Z",
+  "generatedAt": "2026-09-15T07:45:12.025Z",
   "matches": [
-    {
-      "id": "football-1319151202",
-      "sport": "football",
-      "rawId": 1319151202,
-      "utcKickoff": "2026-09-14T16:30:00.000Z",
-      "competition": "Serie A",
-      "home": "Como",
-      "away": "Parma",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1319157159",
-      "sport": "football",
-      "rawId": 1319157159,
-      "utcKickoff": "2026-09-14T16:30:00.000Z",
-      "competition": "Serie A",
-      "home": "Torino",
-      "away": "AS Roma",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1319152904",
-      "sport": "football",
-      "rawId": 1319152904,
-      "utcKickoff": "2026-09-14T18:45:00.000Z",
-      "competition": "Serie A",
-      "home": "Inter",
-      "away": "Udinese",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Inter",
-          "formation": "3-5-2",
-          "players": [
-            "Josep Martínez",
-            "Alessandro Bastoni",
-            "Manuel Akanji",
-            "John Stones",
-            "Carlos Augusto",
-            "Henrikh Mkhitaryan",
-            "Piotr Zieliński",
-            "Nicolò Barella",
-            "Andy Diouf",
-            "Pio Esposito",
-            "Marcus Thuram"
-          ]
-        },
-        "away": {
-          "name": "Udinese",
-          "formation": "3-4-2-1",
-          "players": [
-            "Maduka Okoye",
-            "Enzo Ebosse",
-            "Christian Kabasele",
-            "James Abankwah",
-            "Hassane Kamara",
-            "Lennon Miller",
-            "Jesper Karlström",
-            "Mërgim Vojvoda",
-            "Jürgen Ekkelenkamp",
-            "Unai Gómez",
-            "Keinan Davis"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "football-1325349886",
-      "sport": "football",
-      "rawId": 1325349886,
-      "utcKickoff": "2026-09-14T19:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Leeds",
-      "away": "Newcastle United",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336395866",
-      "sport": "football",
-      "rawId": 1336395866,
-      "utcKickoff": "2026-09-14T19:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Villarreal",
-      "away": "Real Betis",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "football-1336403525",
       "sport": "football",
@@ -157,18 +62,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1336398419",
-      "sport": "football",
-      "rawId": 1336398419,
-      "utcKickoff": "2026-09-16T19:30:00.000Z",
-      "competition": "La Liga",
-      "home": "Barcelona",
-      "away": "Racing Santander",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336401823",
       "sport": "football",
       "rawId": 1336401823,
@@ -176,6 +69,18 @@
       "competition": "La Liga",
       "home": "Levante",
       "away": "Athletic Club",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336398419",
+      "sport": "football",
+      "rawId": 1336398419,
+      "utcKickoff": "2026-09-16T19:30:00.000Z",
+      "competition": "La Liga",
+      "home": "Barcelona",
+      "away": "Racing Santander",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -200,6 +105,66 @@
       "competition": "La Liga",
       "home": "Malaga",
       "away": "Villarreal",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340467901",
+      "sport": "football",
+      "rawId": 1340467901,
+      "utcKickoff": "2026-09-18T18:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Bayern Munich",
+      "away": "Union Berlin",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319163967",
+      "sport": "football",
+      "rawId": 1319163967,
+      "utcKickoff": "2026-09-18T18:45:00.000Z",
+      "competition": "Serie A",
+      "home": "Monza",
+      "away": "Sassuolo",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321407203",
+      "sport": "football",
+      "rawId": 1321407203,
+      "utcKickoff": "2026-09-18T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Monaco",
+      "away": "Lens",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325354992",
+      "sport": "football",
+      "rawId": 1325354992,
+      "utcKickoff": "2026-09-18T19:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336408631",
+      "sport": "football",
+      "rawId": 1336408631,
+      "utcKickoff": "2026-09-18T19:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Espanyol",
+      "away": "Elche",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
