@@ -73,18 +73,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1336397568",
-      "sport": "football",
-      "rawId": 1336397568,
-      "utcKickoff": "2026-09-16T17:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Atlético Madrid",
-      "away": "Osasuna",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336400121",
       "sport": "football",
       "rawId": 1336400121,
@@ -92,6 +80,18 @@
       "competition": "La Liga",
       "home": "Deportivo La Coruña",
       "away": "Sevilla FC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336397568",
+      "sport": "football",
+      "rawId": 1336397568,
+      "utcKickoff": "2026-09-16T17:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Atlético Madrid",
+      "away": "Osasuna",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
