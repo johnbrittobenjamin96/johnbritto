@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T18:58:30.550Z",
+  "generatedAt": "2026-09-15T19:17:27.278Z",
   "matches": [
     {
       "id": "football-1336403525",
@@ -34,8 +34,43 @@
       "home": "Elche",
       "away": "Real Madrid",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Elche",
+          "formation": "3-4-3",
+          "players": [
+            "M. Dituro",
+            "Víctor Chust",
+            "F. Redondo",
+            "Buba Sangaré",
+            "R. Revivo",
+            "Marc Aguado",
+            "Gonzalo Villar",
+            "Tete Morente",
+            "Germán Valera",
+            "A. Osorio",
+            "Martim Neto"
+          ]
+        },
+        "away": {
+          "name": "Real Madrid",
+          "formation": "4-4-2",
+          "players": [
+            "T. Courtois",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "T. Alexander-Arnold",
+            "A. Güler",
+            "A. Tchouaméni",
+            "F. Valverde",
+            "Y. Diomande",
+            "Vinícius Júnior",
+            "Kylian Mbappé"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336400121",
