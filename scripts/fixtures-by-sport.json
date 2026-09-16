@@ -93,8 +93,43 @@
       "home": "Barcelona",
       "away": "Racing Santander",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "Joan García",
+            "João Cancelo",
+            "Gerard Martín",
+            "A. Christensen",
+            "Eric García",
+            "Dani Olmo",
+            "Rodri",
+            "Pedri",
+            "K. Adeyemi",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        },
+        "away": {
+          "name": "Racing Santander",
+          "formation": "4-1-3-2",
+          "players": [
+            "Julen Agirrezabala",
+            "Aarón Martín",
+            "Facundo González",
+            "Pedro Felipe",
+            "Manu Hernando",
+            "M. Prati",
+            "Íñigo Sainz-Maza",
+            "M. Gueye",
+            "Sergio Canales",
+            "Juan Carlos Arana",
+            "Asier Villalibre"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336400121",
