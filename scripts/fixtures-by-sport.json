@@ -301,18 +301,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340472156",
-      "sport": "football",
-      "rawId": 1340472156,
-      "utcKickoff": "2026-09-19T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "Werder Bremen",
-      "away": "FC Augsburg",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340471305",
       "sport": "football",
       "rawId": 1340471305,
@@ -320,6 +308,18 @@
       "competition": "Bundesliga",
       "home": "Hamburger SV",
       "away": "FC Koln",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340472156",
+      "sport": "football",
+      "rawId": 1340472156,
+      "utcKickoff": "2026-09-19T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Werder Bremen",
+      "away": "FC Augsburg",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -349,18 +349,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321406352",
-      "sport": "football",
-      "rawId": 1321406352,
-      "utcKickoff": "2026-09-19T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Lyon",
-      "away": "Rennes FC",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1321405501",
       "sport": "football",
       "rawId": 1321405501,
@@ -373,13 +361,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321403799",
+      "id": "football-1321406352",
       "sport": "football",
-      "rawId": 1321403799,
+      "rawId": 1321406352,
       "utcKickoff": "2026-09-19T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "Angers",
-      "away": "Estac Troyes",
+      "home": "Lyon",
+      "away": "Rennes FC",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -392,6 +380,18 @@
       "competition": "Ligue 1",
       "home": "Toulouse",
       "away": "LE Havre AC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321403799",
+      "sport": "football",
+      "rawId": 1321403799,
+      "utcKickoff": "2026-09-19T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Angers",
+      "away": "Estac Troyes",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
