@@ -1,89 +1,6 @@
 {
-  "generatedAt": "2026-09-17T00:47:18.130Z",
+  "generatedAt": "2026-09-17T01:14:45.930Z",
   "matches": [
-    {
-      "id": "football-1336400121",
-      "sport": "football",
-      "rawId": 1336400121,
-      "utcKickoff": "2026-09-16T17:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Deportivo La Coruña",
-      "away": "Sevilla FC",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336397568",
-      "sport": "football",
-      "rawId": 1336397568,
-      "utcKickoff": "2026-09-16T17:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Atlético Madrid",
-      "away": "Osasuna",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336401823",
-      "sport": "football",
-      "rawId": 1336401823,
-      "utcKickoff": "2026-09-16T19:30:00.000Z",
-      "competition": "La Liga",
-      "home": "Levante",
-      "away": "Athletic Club",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336398419",
-      "sport": "football",
-      "rawId": 1336398419,
-      "utcKickoff": "2026-09-16T19:30:00.000Z",
-      "competition": "La Liga",
-      "home": "Barcelona",
-      "away": "Racing Santander",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "Barcelona",
-          "formation": "4-3-3",
-          "players": [
-            "Joan García",
-            "João Cancelo",
-            "Gerard Martín",
-            "A. Christensen",
-            "Eric García",
-            "Dani Olmo",
-            "Rodri",
-            "Pedri",
-            "K. Adeyemi",
-            "Raphinha",
-            "Lamine Yamal"
-          ]
-        },
-        "away": {
-          "name": "Racing Santander",
-          "formation": "4-1-3-2",
-          "players": [
-            "Julen Agirrezabala",
-            "Aarón Martín",
-            "Facundo González",
-            "Pedro Felipe",
-            "Manu Hernando",
-            "M. Prati",
-            "Íñigo Sainz-Maza",
-            "M. Gueye",
-            "Sergio Canales",
-            "Juan Carlos Arana",
-            "Asier Villalibre"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
     {
       "id": "football-1336399270",
       "sport": "football",
@@ -217,18 +134,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340470454",
-      "sport": "football",
-      "rawId": 1340470454,
-      "utcKickoff": "2026-09-19T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "Eintracht Frankfurt",
-      "away": "SC Freiburg",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340473858",
       "sport": "football",
       "rawId": 1340473858,
@@ -241,18 +146,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340472156",
-      "sport": "football",
-      "rawId": 1340472156,
-      "utcKickoff": "2026-09-19T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "Werder Bremen",
-      "away": "FC Augsburg",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340471305",
       "sport": "football",
       "rawId": 1340471305,
@@ -260,6 +153,30 @@
       "competition": "Bundesliga",
       "home": "Hamburger SV",
       "away": "FC Koln",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340470454",
+      "sport": "football",
+      "rawId": 1340470454,
+      "utcKickoff": "2026-09-19T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "SC Freiburg",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340472156",
+      "sport": "football",
+      "rawId": 1340472156,
+      "utcKickoff": "2026-09-19T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Werder Bremen",
+      "away": "FC Augsburg",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -397,18 +314,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321403799",
-      "sport": "football",
-      "rawId": 1321403799,
-      "utcKickoff": "2026-09-19T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Angers",
-      "away": "Estac Troyes",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1321406352",
       "sport": "football",
       "rawId": 1321406352,
@@ -416,6 +321,18 @@
       "competition": "Ligue 1",
       "home": "Lyon",
       "away": "Rennes FC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321403799",
+      "sport": "football",
+      "rawId": 1321403799,
+      "utcKickoff": "2026-09-19T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Angers",
+      "away": "Estac Troyes",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -440,6 +357,246 @@
       "competition": "La Liga",
       "home": "Sevilla FC",
       "away": "Barcelona",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319161414",
+      "sport": "football",
+      "rawId": 1319161414,
+      "utcKickoff": "2026-09-20T10:30:00.000Z",
+      "competition": "Serie A",
+      "home": "Fiorentina",
+      "away": "Napoli",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336409482",
+      "sport": "football",
+      "rawId": 1336409482,
+      "utcKickoff": "2026-09-20T12:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Getafe",
+      "away": "Malaga",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325358396",
+      "sport": "football",
+      "rawId": 1325358396,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325359247",
+      "sport": "football",
+      "rawId": 1325359247,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Manchester City",
+      "away": "Sunderland",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325354141",
+      "sport": "football",
+      "rawId": 1325354141,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319162265",
+      "sport": "football",
+      "rawId": 1319162265,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Serie A",
+      "home": "Frosinone",
+      "away": "Como",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319164818",
+      "sport": "football",
+      "rawId": 1319164818,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Serie A",
+      "home": "Parma",
+      "away": "Genoa",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321404650",
+      "sport": "football",
+      "rawId": 1321404650,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Stade Brestois 29",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340469603",
+      "sport": "football",
+      "rawId": 1340469603,
+      "utcKickoff": "2026-09-20T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Bayer Leverkusen",
+      "away": "RB Leipzig",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336406078",
+      "sport": "football",
+      "rawId": 1336406078,
+      "utcKickoff": "2026-09-20T14:15:00.000Z",
+      "competition": "La Liga",
+      "home": "Atlético Madrid",
+      "away": "Real Madrid",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321408054",
+      "sport": "football",
+      "rawId": 1321408054,
+      "utcKickoff": "2026-09-20T15:15:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Nice",
+      "away": "Lille",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325357545",
+      "sport": "football",
+      "rawId": 1325357545,
+      "utcKickoff": "2026-09-20T15:30:00.000Z",
+      "competition": "Premier League",
+      "home": "Fulham",
+      "away": "Manchester United",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340473007",
+      "sport": "football",
+      "rawId": 1340473007,
+      "utcKickoff": "2026-09-20T15:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "FC Schalke 04",
+      "away": "SV Elversberg",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319163116",
+      "sport": "football",
+      "rawId": 1319163116,
+      "utcKickoff": "2026-09-20T16:00:00.000Z",
+      "competition": "Serie A",
+      "home": "Juventus",
+      "away": "Atalanta",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336412886",
+      "sport": "football",
+      "rawId": 1336412886,
+      "utcKickoff": "2026-09-20T16:30:00.000Z",
+      "competition": "La Liga",
+      "home": "Villarreal",
+      "away": "Levante",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336407780",
+      "sport": "football",
+      "rawId": 1336407780,
+      "utcKickoff": "2026-09-20T16:30:00.000Z",
+      "competition": "La Liga",
+      "home": "Deportivo La Coruña",
+      "away": "Real Betis",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340474709",
+      "sport": "football",
+      "rawId": 1340474709,
+      "utcKickoff": "2026-09-20T17:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "SC Paderborn 07",
+      "away": "1899 Hoffenheim",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319158861",
+      "sport": "football",
+      "rawId": 1319158861,
+      "utcKickoff": "2026-09-20T18:45:00.000Z",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "Lecce",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321410607",
+      "sport": "football",
+      "rawId": 1321410607,
+      "utcKickoff": "2026-09-20T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Marseille",
+      "away": "Paris Saint Germain",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336412035",
+      "sport": "football",
+      "rawId": 1336412035,
+      "utcKickoff": "2026-09-20T19:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Valencia",
+      "away": "Real Sociedad",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
