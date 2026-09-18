@@ -9,8 +9,43 @@
       "home": "Brentford",
       "away": "Chelsea",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Brentford",
+          "formation": "4-2-3-1",
+          "players": [
+            "C. Kelleher",
+            "K. Lewis-Potter",
+            "K. Ajer",
+            "Jannik Schuster",
+            "M. Kayode",
+            "V. Janelt",
+            "Y. Yarmolyuk",
+            "K. Schade",
+            "M. Damsgaard",
+            "J. Anthony",
+            "Thiago"
+          ]
+        },
+        "away": {
+          "name": "Chelsea",
+          "formation": "3-4-2-1",
+          "players": [
+            "E. Martínez",
+            "L. Colwill",
+            "M. Lacroix",
+            "W. Fofana",
+            "Pep Chavarría",
+            "V. Barco",
+            "J. Henderson",
+            "Pedro Neto",
+            "M. Rogers",
+            "C. Palmer",
+            "D. Welbeck"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325360949",
