@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:42:48.999Z",
+  "generatedAt": "2026-09-19T15:54:59.194Z",
   "matches": [
     {
       "id": "football-1325361800",
@@ -201,8 +201,43 @@
       "home": "AS Roma",
       "away": "Inter",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "AS Roma",
+          "formation": "3-4-2-1",
+          "players": [
+            "Mile Svilar",
+            "Mario Hermoso",
+            "Evan Ndicka",
+            "Gianluca Mancini",
+            "Wesley",
+            "Manu Koné",
+            "Bryan Cristante",
+            "Nahuel Molina",
+            "Matías Soulé",
+            "Paulo Dybala",
+            "Donyell Malen"
+          ]
+        },
+        "away": {
+          "name": "Inter",
+          "formation": "3-5-2",
+          "players": [
+            "Josep Martínez",
+            "Alessandro Bastoni",
+            "Manuel Akanji",
+            "Yann Bisseck",
+            "Federico Dimarco",
+            "Curtis Jones",
+            "Piotr Zieliński",
+            "Nicolò Barella",
+            "Andy Diouf",
+            "Lautaro Martínez",
+            "Marcus Thuram"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325360949",
