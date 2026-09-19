@@ -21,8 +21,43 @@
       "home": "Brighton",
       "away": "Arsenal",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Brighton",
+          "formation": "4-2-3-1",
+          "players": [
+            "B. Verbruggen",
+            "O. Boscagli",
+            "P. Struijk",
+            "L. Vušković",
+            "F. Kadıoğlu",
+            "Y. Ayari",
+            "José María Andrés Baixauli",
+            "M. De Cuyper",
+            "P. Groß",
+            "D. Gómez",
+            "C. Kostoulas"
+          ]
+        },
+        "away": {
+          "name": "Arsenal",
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "R. Calafiori",
+            "Gabriel Magalhães",
+            "E. Konsa",
+            "J. Timber",
+            "Bruno Guimarães",
+            "D. Rice",
+            "C. Tzolis",
+            "M. Ødegaard",
+            "B. Saka",
+            "K. Havertz"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325360098",
