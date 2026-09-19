@@ -152,8 +152,43 @@
       "home": "Sevilla FC",
       "away": "Barcelona",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Sevilla FC",
+          "formation": "4-2-3-1",
+          "players": [
+            "O. Vlachodimos",
+            "G. Suazo",
+            "Andrés Castrín",
+            "A. Sangante",
+            "Juan Iglesias",
+            "G. Kochorashvili",
+            "L. Agoumé",
+            "Félix Correia",
+            "Y. Fofana",
+            "M. Sierra",
+            "R. Ure"
+          ]
+        },
+        "away": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "D. Livaković",
+            "João Cancelo",
+            "A. Christensen",
+            "Pau Cubarsí Paredes",
+            "Eric García",
+            "Pedri",
+            "Rodri",
+            "Fermín",
+            "A. Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336406929",

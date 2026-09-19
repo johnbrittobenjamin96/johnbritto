@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T18:42:05.951Z",
+  "generatedAt": "2026-09-19T18:54:23.083Z",
   "matches": [
     {
       "id": "football-1325361800",
@@ -379,8 +379,43 @@
       "home": "Sevilla FC",
       "away": "Barcelona",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Sevilla FC",
+          "formation": "4-2-3-1",
+          "players": [
+            "O. Vlachodimos",
+            "G. Suazo",
+            "Andrés Castrín",
+            "A. Sangante",
+            "Juan Iglesias",
+            "G. Kochorashvili",
+            "L. Agoumé",
+            "Félix Correia",
+            "Y. Fofana",
+            "M. Sierra",
+            "R. Ure"
+          ]
+        },
+        "away": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "D. Livaković",
+            "João Cancelo",
+            "A. Christensen",
+            "Pau Cubarsí Paredes",
+            "Eric García",
+            "Pedri",
+            "Rodri",
+            "Fermín",
+            "A. Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1319161414",
