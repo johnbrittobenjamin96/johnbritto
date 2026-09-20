@@ -9,8 +9,43 @@
       "home": "Fulham",
       "away": "Manchester United",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Fulham",
+          "formation": "4-2-3-1",
+          "players": [
+            "B. Leno",
+            "A. Robinson",
+            "C. Bassey",
+            "D. Affengruber",
+            "T. Castagne",
+            "S. Charles",
+            "S. Berge",
+            "A. Iwobi",
+            "Joshua King",
+            "Oscar Bobb",
+            "Gonzalo García"
+          ]
+        },
+        "away": {
+          "name": "Manchester United",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Lammens",
+            "L. Shaw",
+            "Lisandro Martínez",
+            "H. Maguire",
+            "Diogo Dalot",
+            "K. Mainoo",
+            "Y. Tielemans",
+            "M. Rashford",
+            "Bruno Fernandes",
+            "B. Mbeumo",
+            "Matheus Cunha"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325359247",
