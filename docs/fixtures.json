@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T15:40:32.892Z",
+  "generatedAt": "2026-09-20T15:52:49.900Z",
   "matches": [
     {
       "id": "football-1319161414",
@@ -341,8 +341,43 @@
       "home": "Juventus",
       "away": "Atalanta",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Juventus",
+          "formation": "4-2-3-1",
+          "players": [
+            "Guglielmo Vicario",
+            "Zeki Çelik",
+            "Jhon Lucumí",
+            "Gleison Bremer",
+            "Pierre Kalulu",
+            "Douglas Luiz",
+            "Weston McKennie",
+            "Kerim Alajbegović",
+            "Nicolás González",
+            "Francisco Conceição",
+            "Randal Kolo Muani"
+          ]
+        },
+        "away": {
+          "name": "Atalanta",
+          "formation": "4-3-3",
+          "players": [
+            "Marco Carnesecchi",
+            "Lorenzo Bernasconi",
+            "Giorgio Scalvini",
+            "Thomas Kristensen",
+            "Raoul Bellanova",
+            "Éderson",
+            "Franck Kessié",
+            "Lazar Samardžić",
+            "Jonathan Rowe",
+            "Nikola Krstović",
+            "Charles De Ketelaere"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336412886",
