@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T09:56:01.964Z",
+  "generatedAt": "2026-09-20T10:15:32.414Z",
   "matches": [
     {
       "id": "football-1319161414",
@@ -10,8 +10,43 @@
       "home": "Fiorentina",
       "away": "Napoli",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Fiorentina",
+          "formation": "4-2-3-1",
+          "players": [
+            "David De Gea",
+            "Viery",
+            "Luca Ranieri",
+            "Radu Drăguşin",
+            "Álex Jiménez",
+            "Nicolò Fagioli",
+            "Arthur Atta",
+            "Alieu Njie",
+            "Franco Mastantuono",
+            "Cher Ndour",
+            "Mateo Pellegrino"
+          ]
+        },
+        "away": {
+          "name": "Napoli",
+          "formation": "4-2-3-1",
+          "players": [
+            "Vanja Milinković-Savić",
+            "Mathías Olivera",
+            "Rafa Marín",
+            "Amir Rrahmani",
+            "Giovanni Di Lorenzo",
+            "Stanislav Lobotka",
+            "Billy Gilmour",
+            "Noa Lang",
+            "Kevin De Bruyne",
+            "Matteo Politano",
+            "Rasmus Højlund"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336409482",

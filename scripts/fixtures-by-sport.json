@@ -165,8 +165,43 @@
       "home": "Fiorentina",
       "away": "Napoli",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Fiorentina",
+          "formation": "4-2-3-1",
+          "players": [
+            "David De Gea",
+            "Viery",
+            "Luca Ranieri",
+            "Radu Drăguşin",
+            "Álex Jiménez",
+            "Nicolò Fagioli",
+            "Arthur Atta",
+            "Alieu Njie",
+            "Franco Mastantuono",
+            "Cher Ndour",
+            "Mateo Pellegrino"
+          ]
+        },
+        "away": {
+          "name": "Napoli",
+          "formation": "4-2-3-1",
+          "players": [
+            "Vanja Milinković-Savić",
+            "Mathías Olivera",
+            "Rafa Marín",
+            "Amir Rrahmani",
+            "Giovanni Di Lorenzo",
+            "Stanislav Lobotka",
+            "Billy Gilmour",
+            "Noa Lang",
+            "Kevin De Bruyne",
+            "Matteo Politano",
+            "Rasmus Højlund"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1340474709",
