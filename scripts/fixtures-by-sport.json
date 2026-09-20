@@ -21,8 +21,43 @@
       "home": "Manchester City",
       "away": "Sunderland",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Manchester City",
+          "formation": "4-2-3-1",
+          "players": [
+            "G. Donnarumma",
+            "J. Gvardiol",
+            "M. Guéhi",
+            "Rúben Dias",
+            "Matheus Nunes",
+            "E. Anderson",
+            "E. Fernández",
+            "I. Ndiaye",
+            "R. Cherki",
+            "A. Semenyo",
+            "E. Haaland"
+          ]
+        },
+        "away": {
+          "name": "Sunderland",
+          "formation": "4-2-3-1",
+          "players": [
+            "R. Roefs",
+            "D. Methalie",
+            "D. Ballard",
+            "K. Danso",
+            "N. Mukiele",
+            "N. Sadiki",
+            "G. Xhaka",
+            "N. Angulo",
+            "E. Le Fée",
+            "T. Meunier",
+            "B. Brobbey"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325354141",
@@ -33,8 +68,43 @@
       "home": "Bournemouth",
       "away": "Liverpool",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Bournemouth",
+          "formation": "4-2-3-1",
+          "players": [
+            "Đ. Petrović",
+            "A. Truffert",
+            "António Silva",
+            "J. Hill",
+            "A. Smith",
+            "A. Scott",
+            "T. Adams",
+            "M. Tavernier",
+            "R. Christie",
+            "Rayan",
+            "Evanilson"
+          ]
+        },
+        "away": {
+          "name": "Liverpool",
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson Becker",
+            "M. Kerkez",
+            "J. Jacquet",
+            "V. van Dijk",
+            "R. Araújo",
+            "D. Szoboszlai",
+            "A. Mac Allister",
+            "C. Gakpo",
+            "F. Wirtz",
+            "B. Barcola",
+            "A. Isak"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325358396",
