@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T13:53:18.879Z",
+  "generatedAt": "2026-09-20T14:14:12.249Z",
   "matches": [
     {
       "id": "football-1319161414",
@@ -223,8 +223,43 @@
       "home": "Atlético Madrid",
       "away": "Real Madrid",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Atlético Madrid",
+          "formation": "4-4-2",
+          "players": [
+            "J. Oblak",
+            "D. Hancko",
+            "C. Romero",
+            "Marc Pubill",
+            "Marcos Llorente",
+            "Álex Grimaldo",
+            "J. Cardoso",
+            "Álex Baena",
+            "G. Simeone",
+            "J. David",
+            "Lee Kang-In"
+          ]
+        },
+        "away": {
+          "name": "Real Madrid",
+          "formation": "4-2-3-1",
+          "players": [
+            "T. Courtois",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "D. Dumfries",
+            "A. Tchouaméni",
+            "F. Valverde",
+            "Vinícius Júnior",
+            "J. Bellingham",
+            "A. Güler",
+            "Kylian Mbappé"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1321408054",
