@@ -257,8 +257,43 @@
       "home": "AC Milan",
       "away": "Lecce",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "AC Milan",
+          "formation": "3-4-2-1",
+          "players": [
+            "Mike Maignan",
+            "Strahinja Pavlović",
+            "Koni De Winter",
+            "Mario Gila",
+            "Pervis Estupiñán",
+            "Adrien Rabiot",
+            "Luka Modrić",
+            "Samuel Chukwueze",
+            "Alexis Saelemaekers",
+            "Christian Pulišić",
+            "Gonçalo Ramos"
+          ]
+        },
+        "away": {
+          "name": "Lecce",
+          "formation": "4-3-3",
+          "players": [
+            "Wladimiro Falcone",
+            "Antonino Gallo",
+            "Jamil Siebert",
+            "Kialonda Gaspar",
+            "Danilo Veiga",
+            "Youssef Maleh",
+            "Ivan Ilić",
+            "Lassana Coulibaly",
+            "Joël Monteiro",
+            "Nikola Štulić",
+            "Santiago Pierotti"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1319163116",
