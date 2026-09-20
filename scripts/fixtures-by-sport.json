@@ -48,6 +48,18 @@
       "lineupsAvailable": true
     },
     {
+      "id": "football-1325358396",
+      "sport": "football",
+      "rawId": 1325358396,
+      "utcKickoff": "2026-09-20T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Leeds",
+      "away": "Crystal Palace",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1325359247",
       "sport": "football",
       "rawId": 1325359247,
@@ -142,18 +154,6 @@
       "lineupsAvailable": true
     },
     {
-      "id": "football-1325358396",
-      "sport": "football",
-      "rawId": 1325358396,
-      "utcKickoff": "2026-09-20T13:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Leeds",
-      "away": "Crystal Palace",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336412035",
       "sport": "football",
       "rawId": 1336412035,
@@ -166,18 +166,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1336412886",
-      "sport": "football",
-      "rawId": 1336412886,
-      "utcKickoff": "2026-09-20T16:30:00.000Z",
-      "competition": "La Liga",
-      "home": "Villarreal",
-      "away": "Levante",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336407780",
       "sport": "football",
       "rawId": 1336407780,
@@ -185,6 +173,18 @@
       "competition": "La Liga",
       "home": "Deportivo La Coruña",
       "away": "Real Betis",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1336412886",
+      "sport": "football",
+      "rawId": 1336412886,
+      "utcKickoff": "2026-09-20T16:30:00.000Z",
+      "competition": "La Liga",
+      "home": "Villarreal",
+      "away": "Levante",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
