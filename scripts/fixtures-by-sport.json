@@ -1,4 +1,17 @@
 {
   "football": [],
-  "basketball": []
+  "basketball": [
+    {
+      "id": "basketball-1545634",
+      "sport": "basketball",
+      "rawId": 1545634,
+      "utcKickoff": "2026-10-03T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Toronto Raptors",
+      "away": "Miami Heat",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    }
+  ]
 }

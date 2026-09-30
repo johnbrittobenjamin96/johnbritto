@@ -1,4 +1,17 @@
 {
-  "generatedAt": "2026-09-29T23:54:43.247Z",
-  "matches": []
+  "generatedAt": "2026-09-30T00:22:23.863Z",
+  "matches": [
+    {
+      "id": "basketball-1545634",
+      "sport": "basketball",
+      "rawId": 1545634,
+      "utcKickoff": "2026-10-03T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Toronto Raptors",
+      "away": "Miami Heat",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    }
+  ]
 }
