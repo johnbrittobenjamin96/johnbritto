@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T00:53:43.981Z",
+  "generatedAt": "2026-10-01T01:16:28.047Z",
   "matches": [
     {
       "id": "basketball-1545634",
@@ -9,6 +9,30 @@
       "competition": "NBA",
       "home": "Toronto Raptors",
       "away": "Miami Heat",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545637",
+      "sport": "basketball",
+      "rawId": 1545637,
+      "utcKickoff": "2026-10-04T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Utah Jazz",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545883",
+      "sport": "basketball",
+      "rawId": 1545883,
+      "utcKickoff": "2026-10-04T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "LA Clippers",
+      "away": "Golden State Warriors",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
