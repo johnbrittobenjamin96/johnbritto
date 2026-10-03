@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T01:54:46.266Z",
+  "generatedAt": "2026-10-03T02:15:32.277Z",
   "matches": [
     {
       "id": "basketball-1545634",
@@ -14,18 +14,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1545883",
-      "sport": "basketball",
-      "rawId": 1545883,
-      "utcKickoff": "2026-10-04T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "LA Clippers",
-      "away": "Golden State Warriors",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545637",
       "sport": "basketball",
       "rawId": 1545637,
@@ -33,6 +21,18 @@
       "competition": "NBA",
       "home": "Denver Nuggets",
       "away": "Utah Jazz",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545883",
+      "sport": "basketball",
+      "rawId": 1545883,
+      "utcKickoff": "2026-10-04T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "LA Clippers",
+      "away": "Golden State Warriors",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -69,6 +69,42 @@
       "competition": "NBA",
       "home": "Atlanta Hawks",
       "away": "Memphis Grizzlies",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545643",
+      "sport": "basketball",
+      "rawId": 1545643,
+      "utcKickoff": "2026-10-06T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Minnesota Timberwolves",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545644",
+      "sport": "basketball",
+      "rawId": 1545644,
+      "utcKickoff": "2026-10-06T02:00:00.000Z",
+      "competition": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Los Angeles Lakers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545652",
+      "sport": "basketball",
+      "rawId": 1545652,
+      "utcKickoff": "2026-10-06T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Brooklyn Nets",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
