@@ -10,8 +10,29 @@
       "home": "LA Clippers",
       "away": "Golden State Warriors",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "LA Clippers",
+          "players": [
+            "Derrick Jones Jr.",
+            "Rui Hachimura",
+            "Isaiah Jackson",
+            "Max Strus",
+            "Darius Garland"
+          ]
+        },
+        "away": {
+          "name": "Golden State Warriors",
+          "players": [
+            "Draymond Green",
+            "Yaxel Lendeborg",
+            "Al Horford",
+            "Stephen Curry",
+            "Brandin Podziemski"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1545637",
