@@ -2,51 +2,6 @@
   "football": [],
   "basketball": [
     {
-      "id": "basketball-1545883",
-      "sport": "basketball",
-      "rawId": 1545883,
-      "utcKickoff": "2026-10-04T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "LA Clippers",
-      "away": "Golden State Warriors",
-      "allNotify": false,
-      "lineup": {
-        "home": {
-          "name": "LA Clippers",
-          "players": [
-            "Derrick Jones Jr.",
-            "Rui Hachimura",
-            "Isaiah Jackson",
-            "Max Strus",
-            "Darius Garland"
-          ]
-        },
-        "away": {
-          "name": "Golden State Warriors",
-          "players": [
-            "Draymond Green",
-            "Yaxel Lendeborg",
-            "Al Horford",
-            "Stephen Curry",
-            "Brandin Podziemski"
-          ]
-        }
-      },
-      "lineupsAvailable": true
-    },
-    {
-      "id": "basketball-1545637",
-      "sport": "basketball",
-      "rawId": 1545637,
-      "utcKickoff": "2026-10-04T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Denver Nuggets",
-      "away": "Utah Jazz",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545641",
       "sport": "basketball",
       "rawId": 1545641,
@@ -59,18 +14,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1545640",
-      "sport": "basketball",
-      "rawId": 1545640,
-      "utcKickoff": "2026-10-05T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Atlanta Hawks",
-      "away": "Memphis Grizzlies",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545642",
       "sport": "basketball",
       "rawId": 1545642,
@@ -78,6 +21,18 @@
       "competition": "NBA",
       "home": "Philadelphia 76ers",
       "away": "New York Knicks",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545640",
+      "sport": "basketball",
+      "rawId": 1545640,
+      "utcKickoff": "2026-10-05T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Memphis Grizzlies",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -162,6 +117,102 @@
       "competition": "NBA",
       "home": "Oklahoma City Thunder",
       "away": "New Orleans Pelicans",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545691",
+      "sport": "basketball",
+      "rawId": 1545691,
+      "utcKickoff": "2026-10-08T23:30:00.000Z",
+      "competition": "NBA",
+      "home": "New York Knicks",
+      "away": "Washington Wizards",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545689",
+      "sport": "basketball",
+      "rawId": 1545689,
+      "utcKickoff": "2026-10-08T23:30:00.000Z",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "New Orleans Pelicans",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545690",
+      "sport": "basketball",
+      "rawId": 1545690,
+      "utcKickoff": "2026-10-08T23:30:00.000Z",
+      "competition": "NBA",
+      "home": "Brooklyn Nets",
+      "away": "Philadelphia 76ers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545688",
+      "sport": "basketball",
+      "rawId": 1545688,
+      "utcKickoff": "2026-10-08T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Boston Celtics",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545671",
+      "sport": "basketball",
+      "rawId": 1545671,
+      "utcKickoff": "2026-10-08T02:00:00.000Z",
+      "competition": "NBA",
+      "home": "Portland Trail Blazers",
+      "away": "Golden State Warriors",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545668",
+      "sport": "basketball",
+      "rawId": 1545668,
+      "utcKickoff": "2026-10-08T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Orlando Magic",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545670",
+      "sport": "basketball",
+      "rawId": 1545670,
+      "utcKickoff": "2026-10-08T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Phoenix Suns",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545669",
+      "sport": "basketball",
+      "rawId": 1545669,
+      "utcKickoff": "2026-10-08T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Milwaukee Bucks",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
