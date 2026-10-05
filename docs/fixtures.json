@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-10-05T09:48:26.381Z",
+  "generatedAt": "2026-10-05T10:18:08.320Z",
   "matches": [
-    {
-      "id": "basketball-1545641",
-      "sport": "basketball",
-      "rawId": 1545641,
-      "utcKickoff": "2026-10-05T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Detroit Pistons",
-      "away": "Phoenix Suns",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "basketball-1545642",
       "sport": "basketball",
@@ -21,6 +9,18 @@
       "competition": "NBA",
       "home": "Philadelphia 76ers",
       "away": "New York Knicks",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545641",
+      "sport": "basketball",
+      "rawId": 1545641,
+      "utcKickoff": "2026-10-05T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Phoenix Suns",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
