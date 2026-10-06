@@ -183,18 +183,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1545668",
-      "sport": "basketball",
-      "rawId": 1545668,
-      "utcKickoff": "2026-10-08T00:00:00.000Z",
-      "competition": "NBA",
-      "home": "Memphis Grizzlies",
-      "away": "Orlando Magic",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545670",
       "sport": "basketball",
       "rawId": 1545670,
@@ -202,6 +190,18 @@
       "competition": "NBA",
       "home": "Chicago Bulls",
       "away": "Phoenix Suns",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545668",
+      "sport": "basketball",
+      "rawId": 1545668,
+      "utcKickoff": "2026-10-08T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Orlando Magic",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
