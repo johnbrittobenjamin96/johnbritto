@@ -1,42 +1,43 @@
 {
-  "football": [],
+  "football": [
+    {
+      "id": "football-1336417992",
+      "sport": "football",
+      "rawId": 1336417992,
+      "utcKickoff": "2026-10-09T19:00:00.000Z",
+      "competition": "La Liga",
+      "home": "Malaga",
+      "away": "Espanyol",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340475560",
+      "sport": "football",
+      "rawId": 1340475560,
+      "utcKickoff": "2026-10-09T18:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "Werder Bremen",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321412309",
+      "sport": "football",
+      "rawId": 1321412309,
+      "utcKickoff": "2026-10-09T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Lens",
+      "away": "Lyon",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    }
+  ],
   "basketball": [
-    {
-      "id": "basketball-1545642",
-      "sport": "basketball",
-      "rawId": 1545642,
-      "utcKickoff": "2026-10-05T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Philadelphia 76ers",
-      "away": "New York Knicks",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1545641",
-      "sport": "basketball",
-      "rawId": 1545641,
-      "utcKickoff": "2026-10-05T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Detroit Pistons",
-      "away": "Phoenix Suns",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1545640",
-      "sport": "basketball",
-      "rawId": 1545640,
-      "utcKickoff": "2026-10-05T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Atlanta Hawks",
-      "away": "Memphis Grizzlies",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "basketball-1545652",
       "sport": "basketball",
@@ -213,6 +214,42 @@
       "competition": "NBA",
       "home": "Oklahoma City Thunder",
       "away": "Milwaukee Bucks",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545782",
+      "sport": "basketball",
+      "rawId": 1545782,
+      "utcKickoff": "2026-10-09T12:00:00.000Z",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Houston Rockets",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545693",
+      "sport": "basketball",
+      "rawId": 1545693,
+      "utcKickoff": "2026-10-09T02:30:00.000Z",
+      "competition": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Sacramento Kings",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545692",
+      "sport": "basketball",
+      "rawId": 1545692,
+      "utcKickoff": "2026-10-09T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Atlanta Hawks",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
