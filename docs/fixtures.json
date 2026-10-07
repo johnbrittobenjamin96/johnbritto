@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T01:31:45.010Z",
+  "generatedAt": "2026-10-07T01:57:41.304Z",
   "matches": [
     {
       "id": "basketball-1545643",
@@ -70,8 +70,29 @@
       "home": "Golden State Warriors",
       "away": "Los Angeles Lakers",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Golden State Warriors",
+          "players": [
+            "Draymond Green",
+            "Gui Santos",
+            "Yaxel Lendeborg",
+            "Stephen Curry",
+            "Brandin Podziemski"
+          ]
+        },
+        "away": {
+          "name": "Los Angeles Lakers",
+          "players": [
+            "Sandro Mamukelashvili",
+            "Jake LaRavia",
+            "Adou Thiero",
+            "Quentin Grimes",
+            "Bronny James"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1545667",
