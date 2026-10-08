@@ -13,6 +13,30 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1325367757",
+      "sport": "football",
+      "rawId": 1325367757,
+      "utcKickoff": "2026-10-10T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Ipswich",
+      "away": "Fulham",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325370310",
+      "sport": "football",
+      "rawId": 1325370310,
+      "utcKickoff": "2026-10-10T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Sunderland",
+      "away": "Brighton",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1325364353",
       "sport": "football",
       "rawId": 1325364353,
@@ -32,30 +56,6 @@
       "competition": "Premier League",
       "home": "Aston Villa",
       "away": "Brentford",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1325370310",
-      "sport": "football",
-      "rawId": 1325370310,
-      "utcKickoff": "2026-10-10T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Sunderland",
-      "away": "Brighton",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1325367757",
-      "sport": "football",
-      "rawId": 1325367757,
-      "utcKickoff": "2026-10-10T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Ipswich",
-      "away": "Fulham",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -85,18 +85,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1325366055",
-      "sport": "football",
-      "rawId": 1325366055,
-      "utcKickoff": "2026-10-11T13:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Crystal Palace",
-      "away": "Nottingham Forest",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325366906",
       "sport": "football",
       "rawId": 1325366906,
@@ -104,6 +92,18 @@
       "competition": "Premier League",
       "home": "Hull City",
       "away": "Everton",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325366055",
+      "sport": "football",
+      "rawId": 1325366055,
+      "utcKickoff": "2026-10-11T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Crystal Palace",
+      "away": "Nottingham Forest",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -543,18 +543,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1545691",
-      "sport": "basketball",
-      "rawId": 1545691,
-      "utcKickoff": "2026-10-08T23:30:00.000Z",
-      "competition": "NBA",
-      "home": "New York Knicks",
-      "away": "Washington Wizards",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545689",
       "sport": "basketball",
       "rawId": 1545689,
@@ -562,6 +550,18 @@
       "competition": "NBA",
       "home": "Miami Heat",
       "away": "New Orleans Pelicans",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545691",
+      "sport": "basketball",
+      "rawId": 1545691,
+      "utcKickoff": "2026-10-08T23:30:00.000Z",
+      "competition": "NBA",
+      "home": "New York Knicks",
+      "away": "Washington Wizards",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
