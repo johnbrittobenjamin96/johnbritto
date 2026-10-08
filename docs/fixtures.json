@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T01:20:18.028Z",
+  "generatedAt": "2026-10-08T01:46:54.136Z",
   "matches": [
     {
       "id": "basketball-1545653",
@@ -115,8 +115,29 @@
       "home": "Portland Trail Blazers",
       "away": "Golden State Warriors",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Portland Trail Blazers",
+          "players": [
+            "Toumani Camara",
+            "Deni Avdija",
+            "Donovan Clingan",
+            "Damian Lillard",
+            "Ja Morant"
+          ]
+        },
+        "away": {
+          "name": "Golden State Warriors",
+          "players": [
+            "Malevy Leons",
+            "Charles Bassey",
+            "Brandon Williams",
+            "Dalen Terry",
+            "Will Richard"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1545688",

@@ -452,8 +452,29 @@
       "home": "Portland Trail Blazers",
       "away": "Golden State Warriors",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Portland Trail Blazers",
+          "players": [
+            "Toumani Camara",
+            "Deni Avdija",
+            "Donovan Clingan",
+            "Damian Lillard",
+            "Ja Morant"
+          ]
+        },
+        "away": {
+          "name": "Golden State Warriors",
+          "players": [
+            "Malevy Leons",
+            "Charles Bassey",
+            "Brandon Williams",
+            "Dalen Terry",
+            "Will Richard"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1545669",
