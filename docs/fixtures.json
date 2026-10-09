@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T10:37:23.563Z",
+  "generatedAt": "2026-10-09T17:12:17.929Z",
   "matches": [
     {
       "id": "basketball-1545692",
@@ -122,13 +122,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340479815",
+      "id": "football-1340477262",
       "sport": "football",
-      "rawId": 1340479815,
+      "rawId": 1340477262,
       "utcKickoff": "2026-10-10T13:30:00.000Z",
       "competition": "Bundesliga",
-      "home": "FSV Mainz 05",
-      "away": "Bayer Leverkusen",
+      "home": "1899 Hoffenheim",
+      "away": "Hamburger SV",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -146,13 +146,25 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340477262",
+      "id": "football-1340478964",
       "sport": "football",
-      "rawId": 1340477262,
+      "rawId": 1340478964,
       "utcKickoff": "2026-10-10T13:30:00.000Z",
       "competition": "Bundesliga",
-      "home": "1899 Hoffenheim",
-      "away": "Hamburger SV",
+      "home": "FC Augsburg",
+      "away": "Bayern Munich",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1340479815",
+      "sport": "football",
+      "rawId": 1340479815,
+      "utcKickoff": "2026-10-10T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "FSV Mainz 05",
+      "away": "Bayer Leverkusen",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -170,18 +182,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340478964",
-      "sport": "football",
-      "rawId": 1340478964,
-      "utcKickoff": "2026-10-10T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "FC Augsburg",
-      "away": "Bayern Munich",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325364353",
       "sport": "football",
       "rawId": 1325364353,
@@ -194,18 +194,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1325363502",
-      "sport": "football",
-      "rawId": 1325363502,
-      "utcKickoff": "2026-10-10T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Aston Villa",
-      "away": "Brentford",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325367757",
       "sport": "football",
       "rawId": 1325367757,
@@ -213,6 +201,18 @@
       "competition": "Premier League",
       "home": "Ipswich",
       "away": "Fulham",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325363502",
+      "sport": "football",
+      "rawId": 1325363502,
+      "utcKickoff": "2026-10-10T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Aston Villa",
+      "away": "Brentford",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -338,18 +338,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321411458",
-      "sport": "football",
-      "rawId": 1321411458,
-      "utcKickoff": "2026-10-10T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "Angers",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1321414862",
       "sport": "football",
       "rawId": 1321414862,
@@ -357,6 +345,18 @@
       "competition": "Ligue 1",
       "home": "Monaco",
       "away": "Toulouse",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321411458",
+      "sport": "football",
+      "rawId": 1321411458,
+      "utcKickoff": "2026-10-10T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Stade Brestois 29",
+      "away": "Angers",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -494,18 +494,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1325366906",
-      "sport": "football",
-      "rawId": 1325366906,
-      "utcKickoff": "2026-10-11T13:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Hull City",
-      "away": "Everton",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325366055",
       "sport": "football",
       "rawId": 1325366055,
@@ -513,6 +501,18 @@
       "competition": "Premier League",
       "home": "Crystal Palace",
       "away": "Nottingham Forest",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325366906",
+      "sport": "football",
+      "rawId": 1325366906,
+      "utcKickoff": "2026-10-11T13:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Hull City",
+      "away": "Everton",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
