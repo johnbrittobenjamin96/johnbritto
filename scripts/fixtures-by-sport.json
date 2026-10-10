@@ -13,18 +13,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1325367757",
-      "sport": "football",
-      "rawId": 1325367757,
-      "utcKickoff": "2026-10-10T14:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Ipswich",
-      "away": "Fulham",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325363502",
       "sport": "football",
       "rawId": 1325363502,
@@ -45,8 +33,43 @@
       "home": "Chelsea",
       "away": "Bournemouth",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Chelsea",
+          "formation": "3-4-3",
+          "players": [
+            "E. Martínez",
+            "L. Colwill",
+            "M. Lacroix",
+            "Joshua Kofi Acheampong",
+            "Pep Chavarría",
+            "M. Caicedo",
+            "J. Henderson",
+            "Pedro Neto",
+            "M. Rogers",
+            "João Pedro",
+            "C. Palmer"
+          ]
+        },
+        "away": {
+          "name": "Bournemouth",
+          "formation": "4-2-3-1",
+          "players": [
+            "Đ. Petrović",
+            "A. Truffert",
+            "António Silva",
+            "J. Hill",
+            "A. Smith",
+            "R. Christie",
+            "T. Adams",
+            "D. Brooks",
+            "M. Tavernier",
+            "Rayan",
+            "Evanilson"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325370310",
@@ -56,6 +79,18 @@
       "competition": "Premier League",
       "home": "Sunderland",
       "away": "Brighton",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325367757",
+      "sport": "football",
+      "rawId": 1325367757,
+      "utcKickoff": "2026-10-10T14:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Ipswich",
+      "away": "Fulham",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -289,18 +324,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1319171626",
-      "sport": "football",
-      "rawId": 1319171626,
-      "utcKickoff": "2026-10-11T13:00:00.000Z",
-      "competition": "Serie A",
-      "home": "Lazio",
-      "away": "Monza",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1319172477",
       "sport": "football",
       "rawId": 1319172477,
@@ -308,6 +331,18 @@
       "competition": "Serie A",
       "home": "Lecce",
       "away": "Bologna",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1319171626",
+      "sport": "football",
+      "rawId": 1319171626,
+      "utcKickoff": "2026-10-11T13:00:00.000Z",
+      "competition": "Serie A",
+      "home": "Lazio",
+      "away": "Monza",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -373,6 +408,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1340478964",
+      "sport": "football",
+      "rawId": 1340478964,
+      "utcKickoff": "2026-10-10T13:30:00.000Z",
+      "competition": "Bundesliga",
+      "home": "FC Augsburg",
+      "away": "Bayern Munich",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1340480666",
       "sport": "football",
       "rawId": 1340480666,
@@ -392,18 +439,6 @@
       "competition": "Bundesliga",
       "home": "1899 Hoffenheim",
       "away": "Hamburger SV",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1340478964",
-      "sport": "football",
-      "rawId": 1340478964,
-      "utcKickoff": "2026-10-10T13:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "FC Augsburg",
-      "away": "Bayern Munich",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -445,13 +480,13 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321411458",
+      "id": "football-1321416564",
       "sport": "football",
-      "rawId": 1321411458,
+      "rawId": 1321416564,
       "utcKickoff": "2026-10-10T18:45:00.000Z",
       "competition": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "Angers",
+      "home": "Paris Saint Germain",
+      "away": "Le Mans",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -469,6 +504,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1321411458",
+      "sport": "football",
+      "rawId": 1321411458,
+      "utcKickoff": "2026-10-10T18:45:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Stade Brestois 29",
+      "away": "Angers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1321414862",
       "sport": "football",
       "rawId": 1321414862,
@@ -476,18 +523,6 @@
       "competition": "Ligue 1",
       "home": "Monaco",
       "away": "Toulouse",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321416564",
-      "sport": "football",
-      "rawId": 1321416564,
-      "utcKickoff": "2026-10-10T18:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Paris Saint Germain",
-      "away": "Le Mans",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -541,54 +576,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1392022332",
-      "sport": "football",
-      "rawId": 1392022332,
-      "utcKickoff": "2026-10-13T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Villarreal",
-      "away": "Napoli",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1391990845",
-      "sport": "football",
-      "rawId": 1391990845,
-      "utcKickoff": "2026-10-13T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "RB Leipzig",
-      "away": "PSV Eindhoven",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1391952550",
-      "sport": "football",
-      "rawId": 1391952550,
-      "utcKickoff": "2026-10-13T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Galatasaray",
-      "away": "Barcelona",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1392017226",
-      "sport": "football",
-      "rawId": 1392017226,
-      "utcKickoff": "2026-10-13T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Viking",
-      "away": "Bayern Munich",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1391956805",
       "sport": "football",
       "rawId": 1391956805,
@@ -596,18 +583,6 @@
       "competition": "UEFA Champions League",
       "home": "Inter",
       "away": "Club Brugge KV",
-      "allNotify": true,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1391906596",
-      "sport": "football",
-      "rawId": 1391906596,
-      "utcKickoff": "2026-10-13T19:00:00.000Z",
-      "competition": "UEFA Champions League",
-      "home": "Arsenal",
-      "away": "Lille",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -625,13 +600,61 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1391963613",
+      "id": "football-1392017226",
       "sport": "football",
-      "rawId": 1391963613,
-      "utcKickoff": "2026-10-13T16:45:00.000Z",
+      "rawId": 1392017226,
+      "utcKickoff": "2026-10-13T19:00:00.000Z",
       "competition": "UEFA Champions League",
-      "home": "Lens",
-      "away": "Sporting CP",
+      "home": "Viking",
+      "away": "Bayern Munich",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1392022332",
+      "sport": "football",
+      "rawId": 1392022332,
+      "utcKickoff": "2026-10-13T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Villarreal",
+      "away": "Napoli",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391952550",
+      "sport": "football",
+      "rawId": 1391952550,
+      "utcKickoff": "2026-10-13T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Galatasaray",
+      "away": "Barcelona",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391906596",
+      "sport": "football",
+      "rawId": 1391906596,
+      "utcKickoff": "2026-10-13T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Arsenal",
+      "away": "Lille",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391990845",
+      "sport": "football",
+      "rawId": 1391990845,
+      "utcKickoff": "2026-10-13T19:00:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "RB Leipzig",
+      "away": "PSV Eindhoven",
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
@@ -647,21 +670,21 @@
       "allNotify": true,
       "lineup": null,
       "lineupsAvailable": false
+    },
+    {
+      "id": "football-1391963613",
+      "sport": "football",
+      "rawId": 1391963613,
+      "utcKickoff": "2026-10-13T16:45:00.000Z",
+      "competition": "UEFA Champions League",
+      "home": "Lens",
+      "away": "Sporting CP",
+      "allNotify": true,
+      "lineup": null,
+      "lineupsAvailable": false
     }
   ],
   "basketball": [
-    {
-      "id": "basketball-1545809",
-      "sport": "basketball",
-      "rawId": 1545809,
-      "utcKickoff": "2026-10-10T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Indiana Pacers",
-      "away": "Atlanta Hawks",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "basketball-1545810",
       "sport": "basketball",
@@ -670,6 +693,18 @@
       "competition": "NBA",
       "home": "Washington Wizards",
       "away": "Detroit Pistons",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545809",
+      "sport": "basketball",
+      "rawId": 1545809,
+      "utcKickoff": "2026-10-10T23:00:00.000Z",
+      "competition": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Atlanta Hawks",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -759,18 +794,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1545811",
-      "sport": "basketball",
-      "rawId": 1545811,
-      "utcKickoff": "2026-10-11T00:00:00.000Z",
-      "competition": "NBA",
-      "home": "Miami Heat",
-      "away": "Minnesota Timberwolves",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1545812",
       "sport": "basketball",
       "rawId": 1545812,
@@ -778,6 +801,18 @@
       "competition": "NBA",
       "home": "Boston Celtics",
       "away": "Philadelphia 76ers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1545811",
+      "sport": "basketball",
+      "rawId": 1545811,
+      "utcKickoff": "2026-10-11T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Minnesota Timberwolves",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
