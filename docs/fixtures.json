@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T12:26:49.044Z",
+  "generatedAt": "2026-10-17T15:52:19.839Z",
   "matches": [
     {
       "id": "basketball-1546392",
@@ -262,8 +262,43 @@
       "home": "Bologna",
       "away": "Inter",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Bologna",
+          "formation": "3-4-2-1",
+          "players": [
+            "Ł. Skorupski",
+            "A. Theate",
+            "N. Casale",
+            "M. Darmian",
+            "Juan Miranda",
+            "T. Pobega",
+            "L. Ferguson",
+            "N. Zortea",
+            "N. Cambiaghi",
+            "F. Bernardeschi",
+            "R. Piccoli"
+          ]
+        },
+        "away": {
+          "name": "Inter",
+          "formation": "3-5-2",
+          "players": [
+            "Josep Martínez",
+            "A. Bastoni",
+            "M. Akanji",
+            "Y. Bisseck",
+            "F. Dimarco",
+            "P. Sučić",
+            "P. Zieliński",
+            "N. Barella",
+            "Luis Henrique",
+            "F. Esposito",
+            "M. Thuram"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325377118",
