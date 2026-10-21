@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:29:25.518Z",
+  "generatedAt": "2026-10-21T23:34:49.704Z",
   "matches": [
     {
       "id": "basketball-1547001",
@@ -166,8 +166,29 @@
       "home": "Toronto Raptors",
       "away": "Chicago Bulls",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Toronto Raptors",
+          "players": [
+            "Kawhi Leonard",
+            "RJ Barrett",
+            "Scottie Barnes",
+            "Jakob Poeltl",
+            "Immanuel Quickley"
+          ]
+        },
+        "away": {
+          "name": "Chicago Bulls",
+          "players": [
+            "Jalen Smith",
+            "Matas Buzelis",
+            "Caleb Wilson",
+            "Norman Powell",
+            "Josh Giddey"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1547075",
