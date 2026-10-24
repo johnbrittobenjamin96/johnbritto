@@ -33,8 +33,43 @@
       "home": "Arsenal",
       "away": "Everton",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Arsenal",
+          "formation": "4-2-3-1",
+          "players": [
+            "David Raya",
+            "M. Lewis-Skelly",
+            "Gabriel Magalhães",
+            "E. Konsa",
+            "B. White",
+            "Mikel Merino",
+            "D. Rice",
+            "E. Eze",
+            "M. Ødegaard",
+            "N. Madueke",
+            "V. Gyökeres"
+          ]
+        },
+        "away": {
+          "name": "Everton",
+          "formation": "4-2-3-1",
+          "players": [
+            "J. Pickford",
+            "V. Mykolenko",
+            "J. Tarkowski",
+            "J. O&apos;Brien",
+            "M. Röhl",
+            "J. Garner",
+            "H. Armstrong",
+            "Tyrique George",
+            "K. Dewsbury-Hall",
+            "B. Johnson",
+            "T. Barry"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325380522",
