@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T17:32:41.533Z",
+  "generatedAt": "2026-10-25T19:58:48.934Z",
   "matches": [
     {
       "id": "basketball-1547879",
@@ -392,8 +392,43 @@
       "home": "Barcelona",
       "away": "Real Madrid",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Barcelona",
+          "formation": "4-3-3",
+          "players": [
+            "Joan García",
+            "João Cancelo",
+            "Gerard Martín",
+            "Pau Cubarsí Paredes",
+            "X. Espart",
+            "Fermín",
+            "Rodri",
+            "Pedri",
+            "A. Gordon",
+            "Raphinha",
+            "Lamine Yamal"
+          ]
+        },
+        "away": {
+          "name": "Real Madrid",
+          "formation": "4-4-2",
+          "players": [
+            "A. Lunin",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "F. Valverde",
+            "J. Bellingham",
+            "Bernardo Silva",
+            "A. Tchouaméni",
+            "A. Güler",
+            "Y. Diomande",
+            "Kylian Mbappé"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1547985",
