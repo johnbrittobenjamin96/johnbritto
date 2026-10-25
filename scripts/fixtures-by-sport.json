@@ -21,8 +21,43 @@
       "home": "Manchester United",
       "away": "Bournemouth",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Manchester United",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Lammens",
+            "A. Heaven",
+            "H. Maguire",
+            "L. Yoro",
+            "Diogo Dalot",
+            "C. Baleba",
+            "Andrey Santos",
+            "M. Mount",
+            "Y. Tielemans",
+            "A. Diallo",
+            "B. Mbeumo"
+          ]
+        },
+        "away": {
+          "name": "Bournemouth",
+          "formation": "4-2-3-1",
+          "players": [
+            "Đ. Petrović",
+            "A. Truffert",
+            "António Silva",
+            "J. Hill",
+            "A. Smith",
+            "L. Cook",
+            "T. Adams",
+            "M. Tavernier",
+            "J. Kluivert",
+            "Rayan",
+            "Evanilson"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325385628",
@@ -33,8 +68,43 @@
       "home": "Liverpool",
       "away": "Brighton",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Liverpool",
+          "formation": "4-2-3-1",
+          "players": [
+            "Alisson Becker",
+            "M. Kerkez",
+            "V. van Dijk",
+            "J. Jacquet",
+            "R. Araújo",
+            "A. Mac Allister",
+            "R. Gravenberch",
+            "B. Barcola",
+            "F. Wirtz",
+            "C. Gakpo",
+            "A. Isak"
+          ]
+        },
+        "away": {
+          "name": "Brighton",
+          "formation": "4-2-3-1",
+          "players": [
+            "B. Verbruggen",
+            "O. Boscagli",
+            "L. Dunk",
+            "L. Vušković",
+            "F. Kadıoğlu",
+            "José María Andrés Baixauli",
+            "P. Groß",
+            "M. De Cuyper",
+            "Y. Ayari",
+            "D. Gómez",
+            "C. Kostoulas"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1325383926",
