@@ -339,18 +339,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "basketball-1548774",
-      "sport": "basketball",
-      "rawId": 1548774,
-      "utcKickoff": "2026-10-29T23:00:00.000Z",
-      "competition": "NBA",
-      "home": "Atlanta Hawks",
-      "away": "Cleveland Cavaliers",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "basketball-1548368",
       "sport": "basketball",
       "rawId": 1548368,
@@ -514,6 +502,18 @@
       "competition": "NBA",
       "home": "New Orleans Pelicans",
       "away": "Sacramento Kings",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1548774",
+      "sport": "basketball",
+      "rawId": 1548774,
+      "utcKickoff": "2026-10-30T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Cleveland Cavaliers",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
