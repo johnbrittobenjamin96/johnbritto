@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:50:22.321Z",
+  "generatedAt": "2026-10-29T18:52:01.288Z",
   "matches": [
     {
       "id": "basketball-1548365",
@@ -141,6 +141,18 @@
       "competition": "NBA",
       "home": "Portland Trail Blazers",
       "away": "Memphis Grizzlies",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321438690",
+      "sport": "football",
+      "rawId": 1321438690,
+      "utcKickoff": "2026-10-30T18:00:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Nice",
+      "away": "Rennes FC",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -477,18 +489,6 @@
       "competition": "La Liga",
       "home": "Rayo Vallecano",
       "away": "Celta de Vigo",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321438690",
-      "sport": "football",
-      "rawId": 1321438690,
-      "utcKickoff": "2026-10-31T16:15:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Nice",
-      "away": "Rennes FC",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false

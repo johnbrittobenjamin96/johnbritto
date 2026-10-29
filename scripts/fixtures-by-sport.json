@@ -457,6 +457,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1321438690",
+      "sport": "football",
+      "rawId": 1321438690,
+      "utcKickoff": "2026-10-30T18:00:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Nice",
+      "away": "Rennes FC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1321434435",
       "sport": "football",
       "rawId": 1321434435,
@@ -500,18 +512,6 @@
       "competition": "Ligue 1",
       "home": "Lorient",
       "away": "Stade Brestois 29",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321438690",
-      "sport": "football",
-      "rawId": 1321438690,
-      "utcKickoff": "2026-10-31T16:15:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Nice",
-      "away": "Rennes FC",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
