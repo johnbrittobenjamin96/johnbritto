@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:57:30.509Z",
+  "generatedAt": "2026-11-03T19:25:40.914Z",
   "matches": [
     {
       "id": "basketball-1549854",
@@ -621,6 +621,18 @@
       "competition": "Ligue 1",
       "home": "Toulouse",
       "away": "Strasbourg",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1325399244",
+      "sport": "football",
+      "rawId": 1325399244,
+      "utcKickoff": "2026-11-06T20:00:00.000Z",
+      "competition": "Premier League",
+      "home": "Everton",
+      "away": "Coventry",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
