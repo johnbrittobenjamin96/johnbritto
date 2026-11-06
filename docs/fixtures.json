@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T09:56:16.876Z",
+  "generatedAt": "2026-11-06T17:21:23.876Z",
   "matches": [
     {
       "id": "basketball-1552498",
@@ -326,18 +326,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321442945",
-      "sport": "football",
-      "rawId": 1321442945,
-      "utcKickoff": "2026-11-07T16:15:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Auxerre",
-      "away": "Paris FC",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1319215878",
       "sport": "football",
       "rawId": 1319215878,
@@ -386,6 +374,18 @@
       "lineupsAvailable": false
     },
     {
+      "id": "football-1321442945",
+      "sport": "football",
+      "rawId": 1321442945,
+      "utcKickoff": "2026-11-07T18:00:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Auxerre",
+      "away": "Paris FC",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
       "id": "football-1319209921",
       "sport": "football",
       "rawId": 1319209921,
@@ -398,18 +398,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1321446349",
-      "sport": "football",
-      "rawId": 1321446349,
-      "utcKickoff": "2026-11-07T19:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Paris Saint Germain",
-      "away": "Estac Troyes",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1336454585",
       "sport": "football",
       "rawId": 1336454585,
@@ -417,6 +405,18 @@
       "competition": "La Liga",
       "home": "Valencia",
       "away": "Real Madrid",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "football-1321446349",
+      "sport": "football",
+      "rawId": 1321446349,
+      "utcKickoff": "2026-11-07T20:05:00.000Z",
+      "competition": "Ligue 1",
+      "home": "Paris Saint Germain",
+      "away": "Estac Troyes",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
