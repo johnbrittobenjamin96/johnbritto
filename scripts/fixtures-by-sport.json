@@ -1,18 +1,6 @@
 {
   "football": [
     {
-      "id": "football-1325399244",
-      "sport": "football",
-      "rawId": 1325399244,
-      "utcKickoff": "2026-11-06T20:00:00.000Z",
-      "competition": "Premier League",
-      "home": "Everton",
-      "away": "Coventry",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1325403499",
       "sport": "football",
       "rawId": 1325403499,
@@ -116,18 +104,6 @@
       "competition": "Premier League",
       "home": "Brighton",
       "away": "Brentford",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1336453734",
-      "sport": "football",
-      "rawId": 1336453734,
-      "utcKickoff": "2026-11-06T20:00:00.000Z",
-      "competition": "La Liga",
-      "home": "Sevilla FC",
-      "away": "Alavés",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -241,18 +217,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1319217580",
-      "sport": "football",
-      "rawId": 1319217580,
-      "utcKickoff": "2026-11-06T19:45:00.000Z",
-      "competition": "Serie A",
-      "home": "Venezia",
-      "away": "Udinese",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1319209921",
       "sport": "football",
       "rawId": 1319209921,
@@ -361,18 +325,6 @@
       "lineupsAvailable": false
     },
     {
-      "id": "football-1340511302",
-      "sport": "football",
-      "rawId": 1340511302,
-      "utcKickoff": "2026-11-06T19:30:00.000Z",
-      "competition": "Bundesliga",
-      "home": "Hamburger SV",
-      "away": "Borussia Mönchengladbach",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
       "id": "football-1340507898",
       "sport": "football",
       "rawId": 1340507898,
@@ -464,18 +416,6 @@
       "competition": "Bundesliga",
       "home": "FC Koln",
       "away": "Bayer Leverkusen",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "football-1321448051",
-      "sport": "football",
-      "rawId": 1321448051,
-      "utcKickoff": "2026-11-06T19:45:00.000Z",
-      "competition": "Ligue 1",
-      "home": "Toulouse",
-      "away": "Strasbourg",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
@@ -578,30 +518,6 @@
     }
   ],
   "basketball": [
-    {
-      "id": "basketball-1552499",
-      "sport": "basketball",
-      "rawId": 1552499,
-      "utcKickoff": "2026-11-06T03:00:00.000Z",
-      "competition": "NBA",
-      "home": "Golden State Warriors",
-      "away": "Miami Heat",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1552498",
-      "sport": "basketball",
-      "rawId": 1552498,
-      "utcKickoff": "2026-11-06T02:00:00.000Z",
-      "competition": "NBA",
-      "home": "Phoenix Suns",
-      "away": "Orlando Magic",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "basketball-1555957",
       "sport": "basketball",
@@ -874,6 +790,102 @@
       "competition": "NBA",
       "home": "Minnesota Timberwolves",
       "away": "Utah Jazz",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558013",
+      "sport": "basketball",
+      "rawId": 1558013,
+      "utcKickoff": "2026-11-10T03:00:00.000Z",
+      "competition": "NBA",
+      "home": "Golden State Warriors",
+      "away": "New Orleans Pelicans",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558012",
+      "sport": "basketball",
+      "rawId": 1558012,
+      "utcKickoff": "2026-11-10T02:00:00.000Z",
+      "competition": "NBA",
+      "home": "Phoenix Suns",
+      "away": "San Antonio Spurs",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558011",
+      "sport": "basketball",
+      "rawId": 1558011,
+      "utcKickoff": "2026-11-10T01:30:00.000Z",
+      "competition": "NBA",
+      "home": "Houston Rockets",
+      "away": "Denver Nuggets",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558010",
+      "sport": "basketball",
+      "rawId": 1558010,
+      "utcKickoff": "2026-11-10T01:00:00.000Z",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Indiana Pacers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558009",
+      "sport": "basketball",
+      "rawId": 1558009,
+      "utcKickoff": "2026-11-10T00:30:00.000Z",
+      "competition": "NBA",
+      "home": "Toronto Raptors",
+      "away": "Memphis Grizzlies",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558008",
+      "sport": "basketball",
+      "rawId": 1558008,
+      "utcKickoff": "2026-11-10T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Washington Wizards",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558007",
+      "sport": "basketball",
+      "rawId": 1558007,
+      "utcKickoff": "2026-11-10T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Cleveland Cavaliers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1558006",
+      "sport": "basketball",
+      "rawId": 1558006,
+      "utcKickoff": "2026-11-10T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Los Angeles Lakers",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
