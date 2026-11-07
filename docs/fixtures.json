@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:33:13.293Z",
+  "generatedAt": "2026-11-07T19:38:37.137Z",
   "matches": [
     {
       "id": "basketball-1553104",
@@ -322,8 +322,43 @@
       "home": "Valencia",
       "away": "Real Madrid",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Valencia",
+          "formation": "5-3-2",
+          "players": [
+            "S. Dimitrievski",
+            "José Gayà",
+            "J. de Haas",
+            "César Tárrega",
+            "Pepelu",
+            "Pablo Maffeo",
+            "Aaron Mayol",
+            "G. Rodríguez",
+            "Javi Guerra",
+            "A. Danjuma",
+            "U. Sadiq"
+          ]
+        },
+        "away": {
+          "name": "Real Madrid",
+          "formation": "4-2-3-1",
+          "players": [
+            "T. Courtois",
+            "Marc Cucurella",
+            "D. Huijsen",
+            "I. Konaté",
+            "F. Valverde",
+            "A. Tchouaméni",
+            "Bernardo Silva",
+            "Y. Diomande",
+            "J. Bellingham",
+            "A. Güler",
+            "Kylian Mbappé"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1321446349",
