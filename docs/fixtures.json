@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:32:01.192Z",
+  "generatedAt": "2026-11-08T16:21:52.155Z",
   "matches": [
     {
       "id": "basketball-1555958",
@@ -262,8 +262,43 @@
       "home": "Manchester United",
       "away": "Aston Villa",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Manchester United",
+          "formation": "4-2-3-1",
+          "players": [
+            "S. Lammens",
+            "Diogo Dalot",
+            "H. Maguire",
+            "L. Yoro",
+            "N. Mazraoui",
+            "K. Mainoo",
+            "Y. Tielemans",
+            "Matheus Cunha",
+            "Bruno Fernandes",
+            "A. Diallo",
+            "B. Mbeumo"
+          ]
+        },
+        "away": {
+          "name": "Aston Villa",
+          "formation": "4-2-3-1",
+          "players": [
+            "Z. Suzuki",
+            "I. Maatsen",
+            "Pau Torres",
+            "T. Harwood-Bellis",
+            "V. Lindelöf",
+            "L. Goretzka",
+            "B. Kamara",
+            "J. Manzambi",
+            "J.  McGinn",
+            "Alysson Edward",
+            "N. Jackson"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1340509600",
