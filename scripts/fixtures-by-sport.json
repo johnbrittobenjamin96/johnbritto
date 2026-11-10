@@ -118,8 +118,29 @@
       "home": "Toronto Raptors",
       "away": "Memphis Grizzlies",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "Toronto Raptors",
+          "players": [
+            "Kyle Anderson",
+            "RJ Barrett",
+            "Jakob Poeltl",
+            "Jamal Shead",
+            "Ja'Kobe Walter"
+          ]
+        },
+        "away": {
+          "name": "Memphis Grizzlies",
+          "players": [
+            "Cedric Coward",
+            "Cameron Boozer",
+            "Jaylen Wells",
+            "Zach Edey",
+            "Ty Jerome"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1558008",
