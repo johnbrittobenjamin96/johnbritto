@@ -1,54 +1,6 @@
 {
-  "generatedAt": "2026-11-13T22:25:38.589Z",
+  "generatedAt": "2026-11-14T02:37:57.599Z",
   "matches": [
-    {
-      "id": "basketball-1564268",
-      "sport": "basketball",
-      "rawId": 1564268,
-      "utcKickoff": "2026-11-13T00:00:00.000Z",
-      "competition": "NBA",
-      "home": "Washington Wizards",
-      "away": "Detroit Pistons",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1564267",
-      "sport": "basketball",
-      "rawId": 1564267,
-      "utcKickoff": "2026-11-13T00:00:00.000Z",
-      "competition": "NBA",
-      "home": "Philadelphia 76ers",
-      "away": "Toronto Raptors",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1564269",
-      "sport": "basketball",
-      "rawId": 1564269,
-      "utcKickoff": "2026-11-13T01:00:00.000Z",
-      "competition": "NBA",
-      "home": "Minnesota Timberwolves",
-      "away": "Dallas Mavericks",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
-    {
-      "id": "basketball-1564270",
-      "sport": "basketball",
-      "rawId": 1564270,
-      "utcKickoff": "2026-11-13T02:00:00.000Z",
-      "competition": "NBA",
-      "home": "Phoenix Suns",
-      "away": "Charlotte Hornets",
-      "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
-    },
     {
       "id": "basketball-1567213",
       "sport": "basketball",
@@ -130,8 +82,29 @@
       "home": "San Antonio Spurs",
       "away": "Golden State Warriors",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "San Antonio Spurs",
+          "players": [
+            "Victor Wembanyama",
+            "De'Aaron Fox",
+            "Devin Vassell",
+            "Stephon Castle",
+            "Dylan Harper"
+          ]
+        },
+        "away": {
+          "name": "Golden State Warriors",
+          "players": [
+            "Draymond Green",
+            "Yaxel Lendeborg",
+            "De'Anthony Melton",
+            "Brandin Podziemski",
+            "Will Richard"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "basketball-1567219",
@@ -321,6 +294,102 @@
       "competition": "NBA",
       "home": "Sacramento Kings",
       "away": "Oklahoma City Thunder",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573805",
+      "sport": "basketball",
+      "rawId": 1573805,
+      "utcKickoff": "2026-11-17T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Washington Wizards",
+      "away": "Memphis Grizzlies",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573804",
+      "sport": "basketball",
+      "rawId": 1573804,
+      "utcKickoff": "2026-11-17T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Chicago Bulls",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573803",
+      "sport": "basketball",
+      "rawId": 1573803,
+      "utcKickoff": "2026-11-17T00:00:00.000Z",
+      "competition": "NBA",
+      "home": "Boston Celtics",
+      "away": "Orlando Magic",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573807",
+      "sport": "basketball",
+      "rawId": 1573807,
+      "utcKickoff": "2026-11-17T00:30:00.000Z",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Houston Rockets",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573806",
+      "sport": "basketball",
+      "rawId": 1573806,
+      "utcKickoff": "2026-11-17T00:30:00.000Z",
+      "competition": "NBA",
+      "home": "Brooklyn Nets",
+      "away": "Philadelphia 76ers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573809",
+      "sport": "basketball",
+      "rawId": 1573809,
+      "utcKickoff": "2026-11-17T01:00:00.000Z",
+      "competition": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Golden State Warriors",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573808",
+      "sport": "basketball",
+      "rawId": 1573808,
+      "utcKickoff": "2026-11-17T01:00:00.000Z",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Portland Trail Blazers",
+      "allNotify": false,
+      "lineup": null,
+      "lineupsAvailable": false
+    },
+    {
+      "id": "basketball-1573810",
+      "sport": "basketball",
+      "rawId": 1573810,
+      "utcKickoff": "2026-11-17T02:00:00.000Z",
+      "competition": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Phoenix Suns",
       "allNotify": false,
       "lineup": null,
       "lineupsAvailable": false
