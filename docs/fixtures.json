@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T08:39:12.021Z",
+  "generatedAt": "2026-11-22T16:40:52.997Z",
   "matches": [
     {
       "id": "basketball-1582328",
@@ -202,8 +202,43 @@
       "home": "AC Milan",
       "away": "Frosinone",
       "allNotify": false,
-      "lineup": null,
-      "lineupsAvailable": false
+      "lineup": {
+        "home": {
+          "name": "AC Milan",
+          "formation": "4-4-1-1",
+          "players": [
+            "M. Maignan",
+            "D. Bartesaghi",
+            "S. Bocoum",
+            "Mario Gila",
+            "K. De Winter",
+            "Y. Musah",
+            "A. Rabiot",
+            "L. Modrić",
+            "Diego Moreira",
+            "C. Pulišić",
+            "Gonçalo Ramos"
+          ]
+        },
+        "away": {
+          "name": "Frosinone",
+          "formation": "4-2-3-1",
+          "players": [
+            "L. Palmisani",
+            "I. Monterisi",
+            "G. Cittadini",
+            "G. Calvani",
+            "A. Oyono",
+            "P. Masini",
+            "G. Calò",
+            "G. Kvernadze",
+            "R. Schmid",
+            "E. Tchato",
+            "F. Ghedjemis"
+          ]
+        }
+      },
+      "lineupsAvailable": true
     },
     {
       "id": "football-1336460542",
